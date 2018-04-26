@@ -1,0 +1,68 @@
+
+body, h1, h2, h3, h4 {
+    color:#55595D;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight:300;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight:300;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight:300;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight:300;
+}
+
+p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+ul li, ol li {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* ------------------------------------------------
+-------------------------- Nav -----------
+----------------------------------------------------*/
+
+.top-bar {
+  background-color: transparent;
+}
+
+/* ------------------------------------------------
+-------------------------- Hero -----------
+----------------------------------------------------*/
+
+.hero-panel {
+  background-image: ;
+  background-size: cover;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+.gradient {
+  background-image:
+    linear-gradient(
+      to right,
+      #22C3C9, #FCF5ED
+    );
+}
