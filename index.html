@@ -11,21 +11,23 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
       <!--Google Font and Stylesheet-->
-      <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Varela+Round" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+
+      <!--CSS-->
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="style.css">
 
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <!-- Custom Styles -->
-        <link rel="stylesheet" href="styles/main.css">
       </head>
 
     <body>
       <header>
         <!---navigation bar--->
         <nav class="container-fluid">
-        <div class="row">
+        <div class="top-bar">
               <a href="index.html" class="logo"><img src="images/portfolio-logo.png" alt="Carly Webb" style="width:300px;"/></a>
              <ul class="alignright">
                 <li><a href="bio.html">About</a></li>
@@ -37,36 +39,40 @@
 
       <!---hero--->
        <div class="container-fluid">
-          <div class="row">
-            <h1 id="hero" class="welcome-text">Hi! I'm Carly.</br>I'm a User Experience Designer in San Diego.</br>I build beautiful things for beautiful people</h1>
-             <h2 class="welcome-text">I'm glad you stopped by. I hope you'll check out some of my work.</h2>
+          <div class="hero-panel">
+            <h1 class="welcome-text-intro">Hi! I'm Carly.</h1>
+            <h2 class="welcome-text-body">I'm a User Experience Designer in San Diego.</br>I build beautiful things for beautiful people</h2>
+             <h3 class="welcome-text-bottom">I'm glad you stopped by. I hope you'll check out some of my work.</h3>
+             <img src="images/grey-arrows.png" class=down-arrow alt="DownArrow">
         </div>
       </div>
 
       <!--case study-->
       <div class="container-fluid">
-         <div class="row">
-           <h1>Den</h1>
-           <h2>More than just a cloud platform, Den is the easiest way to organize all of your content across your devices.</h2>
-           <a href="den-case-study.html"><p class="project-link">View Case Study</a>
-           <a href="index.html" class="arrow"><img src="images/arrow.png"></a>
-           <a href="file:///Users/carlywebb/bloc/portfolio/project.html"><img src="images/den-macbook-half.png"></a>
+         <div class="case-study">
+           <h1 class="den-title">Den</h1>
+           <h3 class="den-shortdesc">More than just a cloud platform, Den is the easiest way to organize all of your content across your devices.</h3>
+           <a href="den-case-study.html"class="project-link">View Case Study</a>
+           <a href="index.html" class="horizontal-arrow"><img src="images/arrow.png"></a>
+           <a href="file:///Users/carlywebb/bloc/portfolio/project.html"><img class="half-macbook" src="images/den-macbook-half.png"></a>
          </div>
        </div>
 
        <!--footer-->
     <footer>
-      <div class="container-fluid contact">
-        <div class="row">
-          <h1>I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h1>
-            <a href="bio.html"><p>About Me</p></a>
-            <a href="mailto:carlywebb@gmail.com"><p>Let's Chat!</p></a>
-            <a href="resume.html"><p>Resume</p></a>
-              <ul>
-                  <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a>
-                  <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a>
-                  <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a>
-              </ul>
+      <div class="container-fluid">
+        <div class="footer-section">
+          <h1 class=footer-text>I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h1>
+          <ul>
+            <li><a href="bio.html">About Me</a></li>
+            <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
+            <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
+          </ul>
                 <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
           </div>
         </div>

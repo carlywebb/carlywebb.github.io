@@ -1,9 +1,7 @@
 
 body, h1, h2, h3, h4 {
     color:#55595D;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
     font-weight: 300px;
     letter-spacing: 2px;
     line-height: 36px;
@@ -44,25 +42,159 @@ ul li, ol li {
 -------------------------- Nav -----------
 ----------------------------------------------------*/
 
-.top-bar {
-  background-color: transparent;
+header nav ul{
+    font-weight:200;
+    padding-top: 70px;
+    margin-right: 24px;
+    margin-left:24px;
 }
+
+/*takes out bullet points*/
+
+header nav ul > li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+/*lines up nav text*/
+
+a:link {
+  color:#55595D;
+  text-decoration: none;}
+a:visited {
+  color:#55595D;
+  text-decoration: none;}
+a:hover{
+  color: black;
+  text-decoration: underline;}
+
+.alignright {
+  display:inline-block;
+}
+
+.logo {
+  float:left;
+  padding-right:500px;
+  padding-top:15px;
+
+}
+
+.top-bar {
+  background-color: white;
+  display: inline-block;
+  }
 
 /* ------------------------------------------------
 -------------------------- Hero -----------
 ----------------------------------------------------*/
-
-.hero-panel {
-  background-image: ;
-  background-size: cover;
-  height: 550px;
-  background-attachment: fixed;
+.down-arrow {
+  padding-top:20px
 }
 
-.gradient {
-  background-image:
-    linear-gradient(
-      to right,
-      #22C3C9, #FCF5ED
-    );
+.hero-panel {
+  background-image: url('images/wireframe-hero.png');
+  background-size: cover;
+  height: 700px;
+  background-attachment: fixed;
+  padding-top:10px;
+}
+
+.welcome-text-intro {
+  font-weight:200;
+  line-height:1.5;
+  padding-top:1px;
+}
+
+.welcome-text-body {
+  font-weight:200;
+  line-height:1.5;
+  padding-top:1px;
+}
+
+.welcome-text-bottom {
+  font-weight:200;
+  line-height:1.5;
+  padding-top:40px;
+}
+
+/* ------------------------------------------------
+-------------------------- Case Study on Homepage -----------
+----------------------------------------------------*/
+
+
+.case-study{
+  background-color: #FCF5ED;
+  background-size: cover;
+  height:700px;
+}
+
+.den-shortdesc{
+  font-size:30px;
+  font-weight:200;
+  float:left;
+   width: 400px;
+   height: 100px;
+   padding-top: 200px;
+   margin-left:120px;
+   position:absolute;
+}
+
+.den-title{
+  font-family:nunito;
+  float:left;
+  margin-left:250px;
+  padding-top:100px;
+  position:absolute;
+}
+
+.half-macbook{
+  margin-left:600px;
+  width:1000px;
+  padding-top:50px
+}
+
+.horizontal-arrow {
+  float:left;
+    padding-top: 375px;
+   margin-left:425px;
+  position:absolute;
+}
+
+.project-link {
+   font-size:25px;
+   font-weight:200;
+   float:left;
+   padding-top: 375px;
+   margin-left:220px;
+   position:absolute;
+}
+
+/* ------------------------------------------------
+-------------------------- Footer -----------
+----------------------------------------------------*/
+
+.footer-text{
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:50px;
+  width:800px;
+}
+
+footer ul{
+    font-weight:200;
+    padding-top: 25px;
+}
+
+/*takes out bullet points*/
+footer ul > li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+footer p {
+  font-size:16px;
+  font-weight:100;
+  width:
 }
