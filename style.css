@@ -198,3 +198,94 @@ footer p {
   font-weight:100;
   width:
 }
+
+/* ------------------------------------------------
+-------------------------- Case Study Hero-----------
+----------------------------------------------------*/
+
+.den-background{
+  background-image: url('images/den-project-background.png');
+}
+
+.den-hero {
+  background:#FCF5ED;
+  padding-top:10px;
+  position: relative;
+  height:750px;
+}
+
+.den-project-links{
+  font-size:20px;
+  font-weight:200;
+  padding-top: 70px;
+  margin-right: 24px;
+  margin-left:24px;
+}
+
+
+.den-macbook-small{
+padding-top:50px;
+}
+
+.den-hero p {
+  padding-top:30px;
+  width:800px;
+  margin:auto;
+  font-weight:200;
+
+}
+
+.den-hero a {
+  margin:auto;
+  font-size:20px;
+  font-weight:200;
+}
+
+/* ------------------------------------------------
+-------------------------- Roles, Deliverables, Tools-----------
+----------------------------------------------------*/
+
+.roles{
+  position:relative;;
+  float:left;
+  margin-left:10px;
+  width:400px;
+}
+
+.deliverables{
+  text-align: center;
+  position: relative;
+  width:400px;
+  margin-left:500px;
+  }
+
+.tools {
+  float:right;
+  margin-right:10px;
+  position:relative;
+  width:400px;
+}
+
+/* ------------------------------------------------
+-------------------------- Overview-----------
+----------------------------------------------------*/
+.overview{
+
+}
+
+
+/* ------------------------------------------------
+-------------------------- Problem Solution-----------
+----------------------------------------------------*/
+
+.problem{
+
+}
+
+.solution{
+
+}
+
+.pink-box{
+  
+}
