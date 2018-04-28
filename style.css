@@ -578,27 +578,251 @@ padding-top:50px;
 
 .user-stories ul {
   padding-top:20px;
-
+}
 
 /* ------------------------------------------------
 -------------------------- User Flows & Sitemap-----------
 ----------------------------------------------------*/
 
+.flows-map {
+  padding-top:30px;
+  position: relative;
+}
+
+.flows-map h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.flows-map p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.flow-1 {
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.flow-2 {
+  margin-right:20px;
+  padding-top:30px;
+  padding-bottom:50px;
+}
+
+.map {
+  margin-right:20px;
+  padding-top:30px;
+}
+
 /* ------------------------------------------------
 -------------------------- Identity, Brand Story & Logo-----------
 ----------------------------------------------------*/
 
+
+.brand-story {
+  background:#FCF5ED;
+  height:2500px;
+  padding-top:50px;
+  position: relative;
+}
+
+.brand-story h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.brand-story {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.moodboard {
+    margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.logosketches {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.black-logo{
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.white-logo {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.color-logo {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
 /* ------------------------------------------------
 -------------------------- Colors, Typeface & Style-----------
 ----------------------------------------------------*/
+.colors-type-style {
+  height:1100px;
+  padding-top:50px;
+  position: relative;
+}
+
+.colors-type-style h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.colors-type-style p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:30px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.color-palette{
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:50px;
+}
+
+.typeface-1 {
+  margin-left:auto;
+  margin-right:80px;
+  padding-top:80px;
+}
+
+.typeface-2{
+  margin-right:auto;
+  margin-right:80px;
+  padding-top:80px;
+}
 
 /* ------------------------------------------------
 -------------------------- Sketches, Balsamiq Wireframes & User Testing-----------
 ----------------------------------------------------*/
 
+.wireframes-testing {
+  background:#FCF5ED;
+  height:2500px;
+  padding-top:50px;
+  position: relative;
+}
+
+.wireframes-testing h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.wireframes-testing {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.wf-sketch-1{
+
+}
+
+.wf-balsamiq-1{
+
+}
+
+.wf-complete-1{
+
+}
+
+.wf-sketch-2{
+
+}
+
+.wf-balsamiq-2{
+
+}
+
+.wf-complete-2{
+
+}
+
 /* ------------------------------------------------
 -------------------------- High Fidelity Prototype-----------
 ----------------------------------------------------*/
+
+.hifi-proto {
+  background:#FCF5ED;
+  height:2500px;
+  padding-top:50px;
+  position: relative;
+}
+
+.hifi-proto h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.hifi-proto {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.hifi-mockup {
+
+}
 
 /* ------------------------------------------------
 -------------------------- More User Testing-----------
