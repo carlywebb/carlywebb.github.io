@@ -1,4 +1,8 @@
 
+.container-fluid {
+ padding: 0;
+}
+
 body, h1, h2, h3, h4 {
     color:#55595D;
     font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
@@ -207,7 +211,6 @@ footer p {
 
 .den-background-image{
   background-image: url('images/den-project-background.png');
-  width:900px;
 }
 
 .den-hero {
@@ -239,9 +242,10 @@ padding-top:50px;
 }
 
 .den-hero a {
+  color:  #F28E8E;
   margin:auto;
-  font-size:20px;
-  font-weight:200;
+  font-size:25px;
+  font-weight:300;
 }
 
 /* ------------------------------------------------
@@ -365,9 +369,9 @@ padding-top:50px;
 
 .user-research {
   background:#FCF5ED;
-  padding-top:10px;
+  padding-top:30px;
   position: relative;
-  height:500px;
+  height:1900px;
   font-weight:200;
 }
 
@@ -375,9 +379,10 @@ padding-top:50px;
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:200px;
+  width:400px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
+  padding-top:30px;
 }
 
 .user-research p {
@@ -385,18 +390,95 @@ padding-top:50px;
   font-weight:200;
   line-height:1.5;
   margin:auto;
-  padding-top:10px;
+  padding-top:20px;
   width:1000px;
 }
 
-.survey-1{
+.user-research li {
+  text-align:left;
+}
 
+.survey-1{
+  margin-right:60px;
+  padding-top:30px;
 }
 
 .survey-2{
-
+  margin-left:60px;
+  padding-top:30px;
 }
 
 .what-discovered {
-
+  padding-top:50px;
 }
+
+.what-discovered h3 {
+  margin:auto;
+  width:350px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+.what-discovered p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  width:1000px;
+}
+
+.what-discovered a {
+  color:  #F28E8E;
+  font-weight:300;
+  font-size:25px;
+  margin:auto;
+  line-height:100px;
+}
+
+
+/* ------------------------------------------------
+-------------------------- User Personas-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Competitive Analysis-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- User Stories-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- User Flows & Sitemap-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Identity, Brand Story & Logo-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Colors, Typeface & Style-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Sketches, Balsamiq Wireframes & User Testing-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- High Fidelity Prototype-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- More User Testing-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Key Learnings-----------
+----------------------------------------------------*/
+
+/* ------------------------------------------------
+-------------------------- Case Study Footer-----------
+----------------------------------------------------*/
