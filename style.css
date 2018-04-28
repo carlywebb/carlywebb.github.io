@@ -290,7 +290,7 @@ padding-top:50px;
   font-weight:200;
 }
 
-.overview h2 {
+.overview h3 {
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
@@ -351,7 +351,6 @@ padding-top:50px;
 
 .iphone-dash{
   padding-top:200px;
-  padding-bottom:100px;
 }
 
 .pink-box{
@@ -360,6 +359,7 @@ padding-top:50px;
   border-top-style: solid;
   border-top-color: #F28E8E;
   padding-top:15px;
+  margin:70px
 
 }
 
@@ -375,7 +375,7 @@ padding-top:50px;
   font-weight:200;
 }
 
-.user-research h2 {
+.user-research h3 {
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
@@ -443,13 +443,142 @@ padding-top:50px;
 -------------------------- User Personas-----------
 ----------------------------------------------------*/
 
+.user-personas {
+  background:#FBFBFB;
+  padding-top:30px;
+  position: relative;
+  height:1350px;
+}
+
+.user-personas h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.user-personas p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  width:1000px;
+}
+
+.robert {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+
+}
+
+.melanie {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
+.alison {
+  margin-left:auto;
+  margin-right:20px;
+  padding-top:30px;
+}
+
 /* ------------------------------------------------
 -------------------------- Competitive Analysis-----------
 ----------------------------------------------------*/
 
+.competitive-analysis {
+  padding-top:30px;
+  position: relative;
+}
+
+.competitive-analysis h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.competitive-analysis p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:50px;
+  width:1000px;
+}
+
+.google {
+  padding-top:20px;
+
+}
+
+.dropbox {
+  padding-top:50px;
+
+}
+
+.pinterest {
+  padding-top:50px;
+}
+
 /* ------------------------------------------------
 -------------------------- User Stories-----------
 ----------------------------------------------------*/
+.user-stories {
+  padding-top:30px;
+  position: relative;
+  background:#FCF5ED;
+  height:800px;
+}
+
+.user-stories h3 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:400px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
+.user-stories p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:20px;
+  width:1000px;
+}
+
+.user-stories a {
+  color:  #F28E8E;
+  font-weight:300;
+  font-size:25px;
+  margin:auto;
+  line-height:100px;
+}
+
+.user-stories ul>li {
+  padding-top:5px;
+  text-align:left;
+  margin-left:175px;;
+  font-size:20px;
+
+}
+
+.user-stories ul {
+  padding-top:20px;
+
 
 /* ------------------------------------------------
 -------------------------- User Flows & Sitemap-----------
