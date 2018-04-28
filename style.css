@@ -270,7 +270,7 @@ padding-top:50px;
 -------------------------- Overview-----------
 ----------------------------------------------------*/
 .book-icon{
-  margin-left:380px;
+  margin:0;
   padding-top:30px;
   padding-bottom:30px;
 }
@@ -300,7 +300,6 @@ padding-top:50px;
   padding-top:10px;
   width:1000px;
 }
-
 
 /* ------------------------------------------------
 -------------------------- Problem Solution-----------
