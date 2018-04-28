@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4 {
     color:#55595D;
     font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
-    font-weight: 300px;
+    font-weight: 200px;
     letter-spacing: 2px;
     line-height: 36px;
     text-align: center;
@@ -10,32 +10,34 @@ body, h1, h2, h3, h4 {
 
 h1 {
     font-size: 64px;
-    font-weight:300;
+    font-weight:200;
 }
 
 h2 {
     font-size: 50px;
-    font-weight:300;
+    font-weight:200;
 }
 
 h3 {
     font-size: 40px;
-    font-weight:300;
+    font-weight:200;
 }
 
 h4 {
     font-size: 25px;
-    font-weight:300;
+    font-weight:200;
 }
 
 p {
     font-size: 25px;
     line-height: 30px;
+    font-weight:200;
 }
 
 ul li, ol li {
     font-size: 25px;
     line-height: 30px;
+    font-weight:200;
 }
 
 /* ------------------------------------------------
@@ -203,8 +205,9 @@ footer p {
 -------------------------- Case Study Hero-----------
 ----------------------------------------------------*/
 
-.den-background{
+.den-background-image{
   background-image: url('images/den-project-background.png');
+  width:900px;
 }
 
 .den-hero {
@@ -306,13 +309,94 @@ padding-top:50px;
 ----------------------------------------------------*/
 
 .problem{
+padding-top:50px;
 
 }
 
-.solution{
+.problem h3 {
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+}
 
+.problem p {
+  padding-top:20px;
+  padding-bottom:50px;
+}
+
+.macbook-login{
+  padding-top:200px;
+}
+
+.solution {
+  padding-top:50px;
+}
+
+.solution h3 {
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+}
+
+.solution p {
+  padding-top:20px;
+  padding-bottom:50px;
+}
+
+.iphone-dash{
+  padding-top:200px;
+  padding-bottom:100px;
 }
 
 .pink-box{
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  border-top-style: solid;
+  border-top-color: #F28E8E;
+  padding-top:15px;
+
+}
+
+/* ------------------------------------------------
+-------------------------- User Research-----------
+----------------------------------------------------*/
+
+.user-research {
+  background:#FCF5ED;
+  padding-top:10px;
+  position: relative;
+  height:500px;
+  font-weight:200;
+}
+
+.user-research h2 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:200px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+}
+
+.user-research p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:10px;
+  width:1000px;
+}
+
+.survey-1{
+
+}
+
+.survey-2{
+
+}
+
+.what-discovered {
 
 }
