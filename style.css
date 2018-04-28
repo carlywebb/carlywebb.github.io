@@ -246,31 +246,59 @@ padding-top:50px;
 ----------------------------------------------------*/
 
 .roles{
-  position:relative;;
+  padding-top:50px;
   float:left;
-  margin-left:10px;
-  width:400px;
+  position:relative;
 }
 
 .deliverables{
-  text-align: center;
-  position: relative;
-  width:400px;
-  margin-left:500px;
+  border-right-color:#22C3C9;
+  border-right-style: solid;
+  border-left-color:#22C3C9;
+  border-left-style: solid;
+  position:absolute;
+  margin-left:300px;
+  padding-top:50px;
   }
 
 .tools {
   float:right;
-  margin-right:10px;
   position:relative;
-  width:400px;
 }
 
 /* ------------------------------------------------
 -------------------------- Overview-----------
 ----------------------------------------------------*/
-.overview{
+.book-icon{
+  margin-left:380px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
 
+.overview{
+  background:#FCF5ED;
+  padding-top:10px;
+  position: relative;
+  height:500px;
+  font-weight:200;
+}
+
+.overview h2 {
+  font-weight:200;
+  padding-bottom:20px;
+  margin:auto;
+  width:200px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+}
+
+.overview p {
+  font-size:20px;
+  font-weight:200;
+  line-height:1.5;
+  margin:auto;
+  padding-top:10px;
+  width:1000px;
 }
 
 
@@ -287,5 +315,5 @@ padding-top:50px;
 }
 
 .pink-box{
-  
+
 }
