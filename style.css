@@ -260,18 +260,12 @@ padding-top:50px;
   list-style: none;
 }
 
-.col {
-max-width: 30%;
-}
-
-/*--I still need to figure out how to push the li up to be right below the headings--*/
-
 .border-section {
   border-left-style:solid;
   border-left-color:#22C3C9;
   border-right-style:solid;
   border-right-color:#22C3C9;
-  padding-top:30px;
+  padding-top:20px;
 }
 
 .col h3 {
@@ -279,11 +273,12 @@ max-width: 30%;
 }
 
 .role-section {
-  padding-top:240px
+  padding-top:40px
 }
 
+
 .tools-section {
-    padding-top:170px
+  padding-top:40px;
 }
 
 /* ------------------------------------------------
@@ -347,11 +342,11 @@ padding-top:50px;
 }
 
 .solution {
-  padding-top:50px;
+  padding-top:150px;
 }
 
 .solution-icon {
-  margin-left: 340px;
+  margin-left: 20px;
 }
 
 .solution h3 {
@@ -372,7 +367,7 @@ padding-top:50px;
 }
 
 .iphone-dash{
-  padding-top:200px;
+  padding-top:100px;
 }
 
 .pink-box{
@@ -408,16 +403,19 @@ padding-top:50px;
 }
 
 .user-research p {
-  font-size:20px;
+  font-size:25px;
   font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
-  width:1000px;
+  padding-bottom:20px;
+  width:1200px;
 }
 
 .user-research li {
   text-align:left;
+  margin-left:40px;
+  font-size:20px;
 }
 
 .survey-1{
@@ -444,12 +442,12 @@ padding-top:50px;
 }
 
 .what-discovered p {
-  font-size:20px;
+  font-size:25px;
   font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
-  width:1000px;
+  width:1200px;
 }
 
 .what-discovered a {
@@ -459,7 +457,6 @@ padding-top:50px;
   margin:auto;
   line-height:100px;
 }
-
 
 /* ------------------------------------------------
 -------------------------- User Personas-----------
@@ -777,6 +774,17 @@ padding-top:50px;
   padding-top:30px;
 }
 
+.wireframes-testing h4 {
+  font-weight:200;
+  font-size:40px !important;
+  padding-bottom:20px;
+  margin:auto;
+  width:200px;
+  border-bottom-style: solid;
+  border-bottom-color: #F28E8E;
+  padding-top:30px;
+}
+
 .wireframes-testing p {
   font-size:20px;
   font-weight:200;
@@ -995,4 +1003,12 @@ font-weight:300;
 
 .signature {
   padding-top:30px;
+}
+
+/* ------------------------------------------------
+--------------------------Media Queries-----------
+----------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+
 }
