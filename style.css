@@ -939,3 +939,51 @@ font-weight:300;
 .footer a {
   padding-top:50px;
 }
+
+
+/* ------------------------------------------------
+--------------------------Bio-----------
+----------------------------------------------------*/
+
+.main-section {
+  width:1125px;
+  margin:auto;
+}
+
+.main-section h3 {
+    font-weight:200;
+    padding-bottom:20px;
+    margin:auto;
+    width:600px;
+    padding-top:30px;
+}
+
+.main-section p {
+  padding-top:20px;
+  font-size:20px;
+  text-align:left;
+}
+
+.middle-section p {
+  font-size:20px;
+  margin:auto;
+  padding-top:20px;
+  width: 500px;
+  text-align:left;
+}
+
+.bio-photo {
+  margin-left:300px;
+}
+
+.bottom-section p {
+ font-size:20px;
+  margin:auto;
+  padding-top:20px;
+  text-align:left;
+  width:1125px;
+}
+
+.signature {
+  padding-top:30px;
+}
