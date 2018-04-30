@@ -7,12 +7,19 @@
  padding: 0;
 }
 
-body, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
     color:#55595D;
     font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
     font-weight: 200px;
     letter-spacing: 2px;
     line-height: 36px;
+    text-align: center;
+}
+
+body {
+    color:#55595D;
+    font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
+    font-weight: 200px;
     text-align: center;
 }
 
@@ -57,10 +64,8 @@ ul li, ol li {
 ----------------------------------------------------*/
 
 header nav ul{
-    font-weight:200;
-    padding-top: 70px;
-    margin-right: 24px;
-    margin-left:24px;
+    padding-top: 55px;
+    margin: auto;
 }
 
 /*takes out bullet points*/
@@ -89,14 +94,13 @@ a:hover{
 .logo {
   float:left;
   padding-right:500px;
-  padding-top:15px;
-
+  padding-top:20px;
 }
 
 .top-bar {
   background-color: white;
   display: inline-block;
-  }
+}
 
 
   /*------media queries--need top padding (not working), need to make arrows smaller (replace existing arrows with smaller image)-------*/
@@ -143,6 +147,7 @@ a:hover{
   height: 700px;
   background-attachment: fixed;
   padding-top:10px;
+  margin:auto;
 }
 
 .welcome-text-intro {
@@ -155,12 +160,14 @@ a:hover{
   font-weight:200;
   line-height:1.5;
   padding-top:1px;
+  margin:auto;
 }
 
 .welcome-text-bottom {
   font-weight:200;
   line-height:1.5;
   padding-top:40px;
+  margin:auto;
 }
 
 /*------media queries--need to make arrows smaller (replace existing arrows with smaller image)-------*/
@@ -400,11 +407,15 @@ footer p {
 .den-project-links{
   font-size:20px;
   font-weight:200;
-  padding-top: 10%;
+  padding-top: 1%;
   margin-right: 24px;
   margin-left:24px;
 }
 
+.top-project-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
 
 .den-macbook-small{
 padding-top:50px;
@@ -1125,14 +1136,14 @@ padding-top:50px;
   margin-right:5%;
   margin-left:5%;
   padding-top:80px;
-  padding-bottom:50px;
+  padding-bottom:100px;
 }
 
 .typeface-2{
   margin-left:5%;
   margin-right:5%;
   padding-top:80px;
-  padding-bottom:50px;
+  padding-bottom:100px;
 }
 
 /*media queries*/
@@ -1425,6 +1436,10 @@ footer p {
   padding-top:50px;
 }
 
+.footer-section-bio{
+  background:#FCF5ED;
+}
+
 .bottom-section p {
   margin:auto;
   padding-top:20px;
@@ -1433,6 +1448,7 @@ footer p {
 
 .signature {
   padding-top:30px;
+  padding-bottom:25px;
   margin:auto;
 
 }
@@ -1456,4 +1472,8 @@ footer p {
   .main-section p {text-align:center;}
   .middle-section p {text-align:center;}
   .bottom-section p {text-align:center;}
+}
+
+.resume {
+  margin:auto;
 }
