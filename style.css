@@ -1,4 +1,8 @@
 
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
 .container-fluid {
  padding: 0;
 }
@@ -20,27 +24,31 @@ h1 {
 h2 {
     font-size: 50px;
     font-weight:200;
+    width:80%;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight:200;
+    width:80%;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight:200;
+    width:80%;
 }
 
 p {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 1.5;
     font-weight:200;
+    width:80%;
 }
 
 ul li, ol li {
     font-size: 25px;
-    line-height: 30px;
+    line-height: 1.5;
     font-weight:200;
 }
 
@@ -90,6 +98,38 @@ a:hover{
   display: inline-block;
   }
 
+
+  /*------media queries--need top padding (not working), need to make arrows smaller (replace existing arrows with smaller image)-------*/
+
+
+  /*mobiles*/
+
+  @media (max-width:400px) {
+  .logo {
+          float: none !important;
+          padding-right:25%!important;
+
+      }
+
+  header nav ul > li {
+      display: block!important;
+      padding:10%!important;
+      margin:0!important;
+  }
+
+  }
+
+
+  /*tablets--done*/
+
+  @media (max-width: 767px) {
+  .logo {
+          float: none !important;
+  		width: auto!important;
+      }
+
+  }
+
 /* ------------------------------------------------
 -------------------------- Hero -----------
 ----------------------------------------------------*/
@@ -121,6 +161,40 @@ a:hover{
   font-weight:200;
   line-height:1.5;
   padding-top:40px;
+}
+
+/*------media queries--need to make arrows smaller (replace existing arrows with smaller image)-------*/
+
+
+/*mobiles*/
+
+@media (max-width:400px) {
+.welcome-text-intro {
+        font-size: 30px !important;
+    }
+.welcome-text-body {
+        font-size:20px !important;
+        margin:5% !important;
+        }
+.welcome-text-bottom {
+        font-size:20px !important;
+        margin:5% !important;
+}
+}
+
+/*tablets*/
+
+@media (max-width: 767px) {
+.welcome-text-intro {
+        font-size: 30px !important;
+    }
+.welcome-text-body {
+        font-size:25px !important;
+    }
+.welcome-text-bottom {
+        font-size:25px !important;
+    }
+
 }
 
 /* ------------------------------------------------
@@ -175,14 +249,95 @@ a:hover{
    position:absolute;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+
+.case-study{
+  height:600px;
+}
+
+.half-macbook {
+  width:100%!important;
+  padding-top:95%!important;
+}
+
+.den-shortdesc{
+  font-size:20px!important;
+   width: 80%!important;
+   padding-top: 35%!important;
+   margin-left:8%!important;
+}
+
+.den-title{
+  font-family:nunito;
+  margin-left:30%!important;
+  padding-top:8%!important;
+}
+
+.horizontal-arrow {
+   padding-top:75%!important;
+   margin-left:67%!important;
+}
+
+.project-link {
+   font-size:25px!important;
+   padding-top: 75%!important;
+   margin-left:15%!important;
+}
+}
+
+/*tablets*/
+
+@media (max-width: 767px) {
+
+.case-study{
+  height:1000px;
+}
+
+.den-shortdesc{
+  font-size:25px;
+   width: 80%;
+   padding-top: 25%;
+   margin-left:8%;
+   position:absolute;
+}
+
+.den-title{
+  font-family:nunito;
+  margin-left:40%;
+  padding-top:8%;
+}
+
+.half-macbook{
+  width:100%!important;
+  padding-top:60%!important;
+  margin:auto!important;
+}
+
+.horizontal-arrow {
+   padding-top:45%;
+   margin-left:60%;
+  position:absolute;
+}
+
+.project-link {
+   font-size:25px;
+   padding-top: 45%;
+   margin-left:30%;
+   position:absolute;
+}
+}
+
 /* ------------------------------------------------
 -------------------------- Footer -----------
 ----------------------------------------------------*/
-
 .footer-text{
   font-size:20px;
   font-weight:200;
-  line-height:1.5;
+  line-height:1.5 !important;
   margin:auto;
   padding-top:50px;
   width:800px;
@@ -191,6 +346,7 @@ a:hover{
 footer ul{
     font-weight:200;
     padding-top: 25px;
+    line-height:3.5 !important;
 }
 
 /*takes out bullet points*/
@@ -205,25 +361,46 @@ footer p {
   width:
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .footer-text{
+    width:80%;
+
+  }
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+    .footer-text{
+    width:80%;
+}
+}
+
+
 /* ------------------------------------------------
 -------------------------- Case Study Hero-----------
 ----------------------------------------------------*/
 
 .den-background-image{
   background-image: url('images/den-project-background.png');
+  width:100%;
 }
 
 .den-hero {
   background:#FCF5ED;
   padding-top:10px;
   position: relative;
-  height:750px;
+  height:800px;
 }
 
 .den-project-links{
   font-size:20px;
   font-weight:200;
-  padding-top: 70px;
+  padding-top: 10%;
   margin-right: 24px;
   margin-left:24px;
 }
@@ -234,8 +411,8 @@ padding-top:50px;
 }
 
 .den-hero p {
-  padding-top:30px;
-  width:800px;
+  padding-top:3%;
+  width:80%;
   margin:auto;
   font-weight:200;
 
@@ -248,13 +425,33 @@ padding-top:50px;
   font-weight:300;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .den-macbook-small {
+    width: 80%;
+    padding-top:30%;
+  }
+
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+ .den-macbook-small {
+    width: 80%;
+  }
+
+}
+
 /* ------------------------------------------------
 -------------------------- Roles, Deliverables, Tools-----------
 ----------------------------------------------------*/
-
 .role-deliver-tool li {
   display: inline-block;
-  width: 100%;
+  width: 80%;
   padding: 20px 0;
   margin: 0;
   list-style: none;
@@ -266,6 +463,8 @@ padding-top:50px;
   border-right-style:solid;
   border-right-color:#22C3C9;
   padding-top:20px;
+  margin-left:5%;
+  margin-right:5%;
 }
 
 .col h3 {
@@ -281,10 +480,46 @@ padding-top:50px;
   padding-top:40px;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:500px) {
+  .col li {
+    width:80%;
+  }
+
+  .row {
+    display:block;
+    margin:5%;
+  }
+
+  .border-section{
+    border:none;
+    padding-top: 0%;
+    border-bottom-style:solid;
+    border-bottom-color:#22c3c9;
+  }
+
+  .role-section{
+    border-bottom-style:solid;
+    border-bottom-color:#22c3c9;
+  }
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+
+.col li {
+    width:80%;
+  }
+}
+
 /* ------------------------------------------------
 -------------------------- Overview-----------
 ----------------------------------------------------*/
-.book-icon{
+..book-icon{
   margin:0;
   padding-top:30px;
   padding-bottom:30px;
@@ -302,7 +537,7 @@ padding-top:50px;
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:200px;
+  width:80%;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
 }
@@ -312,13 +547,33 @@ padding-top:50px;
   font-weight:200;
   line-height:1.5;
   margin:auto;
-  padding-top:10px;
-  width:1000px;
+  padding-top:5%;
+  width:80%;
+}
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+    .overview{
+    height:670px;
+  }
 }
 
 /* ------------------------------------------------
 -------------------------- Problem Solution-----------
 ----------------------------------------------------*/
+
+.prob-sol {
+  padding-bottom:50px;
+}
 
 .problem{
 padding-top:50px;
@@ -330,53 +585,76 @@ padding-top:50px;
   padding-bottom:20px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
+  margin:auto;
+  width:80%;
 }
 
 .problem p {
   padding-top:20px;
   padding-bottom:50px;
+  margin:auto;
 }
 
 .macbook-login{
-  padding-top:200px;
+  padding-top:25%;
 }
 
 .solution {
-  padding-top:150px;
+  padding-top:30%;
 }
 
-.solution-icon {
-  margin-left: 20px;
-}
+.solution-icon {}
 
 .solution h3 {
   padding-top:20px;
   padding-bottom:20px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
-  width:250px;
-  margin-left:300px;
+  width:80%;
+  margin-left:30%;
+  margin:auto;
 }
 
 .solution p {
   padding-top:20px;
   padding-bottom:50px;
-  width:700px;
-  margin-left:90px;
+  width:100% !important;
   padding-bottom:50px;
+  margin:auto;
 }
 
 .iphone-dash{
   padding-top:100px;
+  padding-bottom:50px
 }
 
-.pink-box{
+.pink-box p {
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   border-top-style: solid;
   border-top-color: #F28E8E;
-  padding-top:15px;
-  margin:70px
+  padding-top:5%;
+  margin:auto;
+  padding-bottom:5%;
+
+}
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+
+  .macbook-login{
+    padding-top:1%;
+    width:100%;
+  }
+.problem p {
+  font-size: 20px;
+}
+.solution p {
+  font-size: 20px;
+}
 
 }
 
@@ -388,7 +666,7 @@ padding-top:50px;
   background:#FCF5ED;
   padding-top:30px;
   position: relative;
-  height:1900px;
+  min-height:1900px;
   font-weight:200;
 }
 
@@ -396,20 +674,17 @@ padding-top:50px;
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
+  width:80%;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
 .user-research p {
-  font-size:25px;
-  font-weight:200;
-  line-height:1.5;
   margin:auto;
   padding-top:20px;
   padding-bottom:20px;
-  width:1200px;
+  width:80%;
 }
 
 .user-research li {
@@ -426,6 +701,11 @@ padding-top:50px;
 .survey-2{
   margin-left:60px;
   padding-top:30px;
+  margin:auto;
+}
+
+.what-discovered {
+  padding-top:50px;
 }
 
 .what-discovered {
@@ -434,7 +714,7 @@ padding-top:50px;
 
 .what-discovered h3 {
   margin:auto;
-  width:350px;
+  width:80%;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
@@ -442,12 +722,10 @@ padding-top:50px;
 }
 
 .what-discovered p {
-  font-size:25px;
-  font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
-  width:1200px;
+  width:80%;
 }
 
 .what-discovered a {
@@ -458,6 +736,37 @@ padding-top:50px;
   line-height:100px;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .user-research {
+  height:3250px !important;
+  }
+
+  .user-research p {
+    font-size:20px;
+  }
+
+  .what-discovered p {
+    font-size:20px;
+  }
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+    .user-research p {
+    font-size:20px;
+  }
+
+  .what-discovered p {
+    font-size:20px;
+  }
+}
+
+
 /* ------------------------------------------------
 -------------------------- User Personas-----------
 ----------------------------------------------------*/
@@ -466,45 +775,62 @@ padding-top:50px;
   background:#FBFBFB;
   padding-top:30px;
   position: relative;
-  height:1350px;
+  min-height:1500px;
 }
 
-.user-personas h3 {
-  font-weight:200;
+.user-personas h3{
   padding-bottom:20px;
   margin:auto;
-  width:400px;
+  width:80%;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color:#F28E8E;
   padding-top:30px;
 }
 
 .user-personas p {
-  font-size:20px;
   font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
-  width:1000px;
+  width:80%;
 }
 
 .robert {
-  margin-left:auto;
-  margin-right:20px;
-  padding-top:30px;
+  margin:auto;
+  padding-top:10%;
 
 }
 
 .melanie {
-  margin-left:auto;
-  margin-right:20px;
-  padding-top:30px;
+  margin:auto;
+  padding-top:10%;
 }
 
 .alison {
-  margin-left:auto;
-  margin-right:20px;
-  padding-top:30px;
+  margin:auto;
+  padding-top:10%;
+}
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .user-personas {
+    height:3350px;
+  }
+  .user-personas p {
+    font-size:20px;
+  }
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+    .user-personas p {
+    font-size:20px;
+  }
+
 }
 
 /* ------------------------------------------------
@@ -520,7 +846,7 @@ padding-top:50px;
   font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
+  width:80%;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
@@ -533,7 +859,7 @@ padding-top:50px;
   margin:auto;
   padding-top:20px;
   padding-bottom:50px;
-  width:1000px;
+  width:80%;
 }
 
 .google {
@@ -550,6 +876,24 @@ padding-top:50px;
   padding-top:50px;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .google{width:70%}
+  .dropbox{width:70%}
+  .pinterest{width:70%}
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+  .google{width:70%}
+  .dropbox{width:70%}
+  .pinterest{width:70%}
+}
+
 /* ------------------------------------------------
 -------------------------- User Stories-----------
 ----------------------------------------------------*/
@@ -557,14 +901,13 @@ padding-top:50px;
   padding-top:30px;
   position: relative;
   background:#FCF5ED;
-  height:800px;
+  min-height:800px;
 }
 
 .user-stories h3 {
-  font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
+  width:80%;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
@@ -572,11 +915,10 @@ padding-top:50px;
 
 .user-stories p {
   font-size:20px;
-  font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
-  width:1000px;
+  width:80%;
 }
 
 .user-stories a {
@@ -587,50 +929,65 @@ padding-top:50px;
   line-height:100px;
 }
 
-.user-stories ul>li {
+.user-stories li {
   padding-top:5px;
   text-align:left;
-  margin-left:175px;;
+  margin-left:175px;
   font-size:20px;
+  margin:auto;
+  width: 80%;
+  line-height:1.5
 
 }
 
 .user-stories ul {
   padding-top:20px;
+  margin:auto;
 }
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 -------------------------- User Flows & Sitemap-----------
 ----------------------------------------------------*/
+.flowmap {
+  padding-bottom: 50px;
+}
 
 .flows-map {
   padding-top:30px;
-  position: relative;
+  margin:auto;
 }
 
 .flows-map h3 {
-  font-weight:200;
-  padding-bottom:20px;
-  margin:auto;
-  width:400px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
+  padding-bottom:20px;
+  margin:auto;
+  width:80%;
 }
 
 .flows-map p {
-  font-size:20px;
-  font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
   padding-bottom:50px;
-  width:1000px;
+  width:80%;
 }
 
 .flow-1 {
   margin-right:20px;
   padding-top:30px;
+  padding-bottom:50px;
 }
 
 .flow-2 {
@@ -642,7 +999,23 @@ padding-top:50px;
 .map {
   margin-right:20px;
   padding-top:30px;
+  padding-bottom:50px;
+
 }
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .flows-map p {
+    font-size:20px;
+  }
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 -------------------------- Identity, Brand Story & Logo-----------
@@ -650,41 +1023,33 @@ padding-top:50px;
 
 .brand-story {
   background:#FCF5ED;
-  height:2100px;
+  max-height:2400px;
   padding-top:50px;
+  padding-bottom:50px;
   position: relative;
 }
 
 .brand-story h3 {
-  font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
-.brand-story p {
-  font-size:20px;
-  font-weight:200;
-  line-height:1.5;
-  margin:auto;
-  padding-top:20px;
-  padding-bottom:50px;
-  width:1000px;
-}
 
 .moodboard {
-    margin-left:auto;
+  margin-left:auto;
   margin-right:20px;
   padding-top:30px;
+  width:80%;
 }
 
 .logosketches {
   margin-left:auto;
   margin-right:20px;
   padding-top:30px;
+  width:80%;
 }
 
 .black-logo{
@@ -705,34 +1070,45 @@ padding-top:50px;
   padding-top:30px;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {
+  .black-logo{width:80%;}
+  .white-logo{width:80%;}
+  .color-logo{width:80%;}
+}
+
+  /*tablets*/
+
+@media (max-width: 767px) {
+}
+
 /* ------------------------------------------------
 -------------------------- Colors, Typeface & Style-----------
 ----------------------------------------------------*/
 
+
+
 .colors-type-style {
-  height:1200px;
+  background:#FFFFFF;
   padding-top:50px;
   position: relative;
 }
 
 .colors-type-style h3 {
-  font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
 .colors-type-style p {
-  font-size:20px;
-  font-weight:200;
-  line-height:1.5;
   margin:auto;
   padding-top:30px;
   padding-bottom:50px;
-  width:1000px;
 }
 
 .color-palette{
@@ -742,15 +1118,40 @@ padding-top:50px;
 }
 
 .typeface-1 {
-  margin-left:auto;
-  margin-right:80px;
+  margin-right:5%;
+  margin-left:5%;
   padding-top:80px;
+  padding-bottom:50px;
 }
 
 .typeface-2{
-  margin-right:auto;
-  margin-right:80px;
+  margin-left:5%;
+  margin-right:5%;
   padding-top:80px;
+  padding-bottom:50px;
+}
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:1049px) {
+  .color-palette{
+    display:none;
+}
+.small-colors{
+  margin:auto !important;
+}
+
+}
+
+  /*tablets*/
+
+@media (min-width: 1050px){
+  .small-colors{
+    display:none;
+}
+}
 }
 
 /* ------------------------------------------------
@@ -758,113 +1159,115 @@ padding-top:50px;
 ----------------------------------------------------*/
 
 .wireframes-testing {
-  background:#FCF5ED;
-  height:1600px;
-  padding-top:50px;
+  background:#FBFBFB;
+  margin:auto;
+  padding-top:30px;
   position: relative;
 }
 
+
 .wireframes-testing h3 {
-  font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:900px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
 .wireframes-testing h4 {
-  font-weight:200;
-  font-size:40px !important;
   padding-bottom:20px;
   margin:auto;
-  width:200px;
+  font-size:30px !important;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
 .wireframes-testing p {
-  font-size:20px;
-  font-weight:200;
   line-height:1.5;
   margin:auto;
   padding-top:20px;
   padding-bottom:50px;
-  width:1000px;
 }
 
 .wf-sketch-1{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:50px;
 }
 
 .wf-balsamiq-1{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:50px;
 }
 
 .wf-complete-1{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:50px;
+
 }
 
 .wf-sketch-2{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:70px;
 }
 
 .wf-balsamiq-2{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:70px;
 }
 
 .wf-complete-2{
-  margin-left:auto;
-  margin-right:20px;
+  margin:auto;
   padding-top:70px;
 
 }
+
+/*media queries----background isn't working???*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 -------------------------- High Fidelity Prototype-----------
 ----------------------------------------------------*/
 
 .hifi-proto {
-  height:3950px;
   padding-top:50px;
-  position: relative;
 }
 
 .hifi-proto h3 {
-  font-weight:200;
   padding-bottom:20px;
   margin:auto;
-  width:400px;
   border-bottom-style: solid;
   border-bottom-color: #F28E8E;
   padding-top:30px;
 }
 
 .hifi-proto p {
-  font-size:20px;
-  font-weight:200;
-  line-height:1.5;
   margin:auto;
   padding-top:20px;
-  padding-bottom:50px;
-  width:1000px;
+  padding-bottom:30px;
 }
 
 .hifi-mockup {
+  width:80%
 
 }
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 -------------------------- More User Testing-----------
@@ -872,28 +1275,32 @@ padding-top:50px;
 
 .more-testing {
     padding-top:50px;
-    position: relative;
   }
 
 .more-testing h3 {
-    font-weight:200;
     padding-bottom:20px;
     margin:auto;
-    width:400px;
     border-bottom-style: solid;
     border-bottom-color: #F28E8E;
     padding-top:30px;
+    width:80%;
   }
 
 .more-testing p {
-    font-size:20px;
-    font-weight:200;
-    line-height:1.5;
     margin:auto;
     padding-top:20px;
     padding-bottom:50px;
-    width:1000px;
 }
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 -------------------------- Key Learnings-----------
@@ -901,28 +1308,22 @@ padding-top:50px;
 
 .key-learnings {
   background:#FCF5ED;
-    height:600px;
+    max-height:1200px;
     padding-top:50px;
-    position: relative;
+    padding-bottom:50px;
   }
 
 .key-learnings h3 {
-    font-weight:200;
     padding-bottom:20px;
     margin:auto;
-    width:400px;
     border-bottom-style: solid;
     border-bottom-color: #F28E8E;
     padding-top:30px;
   }
 
 .key-learnings p {
-    font-size:20px;
-    font-weight:200;
-    line-height:1.5;
     margin:auto;
     padding-top:20px;
-    width:1000px;
 }
 
 .key-learnings a {
@@ -944,11 +1345,22 @@ padding-top:50px;
   padding-top:20px;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
+
 /* ------------------------------------------------
 -------------------------- Case Study Footer-----------
 ----------------------------------------------------*/
 
 .wantmore-link{
+margin:auto;
 font-size:25px;
 font-weight:300;
 }
@@ -957,6 +1369,23 @@ font-weight:300;
   padding-top:50px;
 }
 
+.footer-section {
+  padding-top:50px;
+}
+
+footer p {
+  margin:auto;
+}
+
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
 
 /* ------------------------------------------------
 --------------------------Bio-----------
@@ -1005,10 +1434,12 @@ font-weight:300;
   padding-top:30px;
 }
 
-/* ------------------------------------------------
---------------------------Media Queries-----------
-----------------------------------------------------*/
+/*media queries*/
 
-@media screen and (max-width: 700px) {
+/*mobiles*/
 
-}
+@media (max-width:400px) {}
+
+  /*tablets*/
+
+@media (max-width: 767px) {}
