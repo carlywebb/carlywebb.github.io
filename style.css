@@ -511,9 +511,13 @@ padding-top:50px;
 
 @media (max-width: 767px) {
 
-.col li {
-    width:80%;
-  }
+.col li {width:80%;}
+
+.border-section li {font-size:20px}
+.role-section li {font-size:20px}
+.tools-section li {font-size:20px}
+
+
 }
 
 /* ------------------------------------------------
@@ -527,7 +531,7 @@ padding-top:50px;
 
 .overview{
   background:#FCF5ED;
-  padding-top:10px;
+  padding-top:50px;
   position: relative;
   height:500px;
   font-weight:200;
@@ -1392,54 +1396,64 @@ footer p {
 ----------------------------------------------------*/
 
 .main-section {
-  width:1125px;
+  width:80%;
   margin:auto;
 }
 
 .main-section h3 {
-    font-weight:200;
     padding-bottom:20px;
     margin:auto;
-    width:600px;
     padding-top:30px;
+    border-bottom-style:solid;
+    border-bottom-color:#22C3C9;
 }
 
 .main-section p {
+  margin:auto;
   padding-top:20px;
-  font-size:20px;
   text-align:left;
 }
 
 .middle-section p {
-  font-size:20px;
   margin:auto;
   padding-top:20px;
-  width: 500px;
   text-align:left;
 }
 
 .bio-photo {
-  margin-left:300px;
+  margin:auto;
+  padding-top:50px;
 }
 
 .bottom-section p {
- font-size:20px;
   margin:auto;
   padding-top:20px;
   text-align:left;
-  width:1125px;
 }
 
 .signature {
   padding-top:30px;
+  margin:auto;
+
 }
 
 /*media queries*/
 
 /*mobiles*/
 
-@media (max-width:400px) {}
+@media (max-width:400px) {
+  .main-section p {text-align:center;}
+  .middle-section p {text-align:center;}
+  .bottom-section p {text-align:center;}
+  .bio-photo {
+    width:90%
+}
+}
 
   /*tablets*/
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  .main-section p {text-align:center;}
+  .middle-section p {text-align:center;}
+  .bottom-section p {text-align:center;}
+}
