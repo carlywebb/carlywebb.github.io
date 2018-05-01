@@ -481,7 +481,8 @@ padding-top:50px;
 }
 
 .col h3 {
-  padding-top:30px
+  padding-top:30px;
+  margin:auto;
 }
 
 .role-section {
@@ -1449,7 +1450,7 @@ footer p {
 .bottom-section p {
   margin-left:160px;
   padding-top:10px;
-  padding-bottom:
+  padding-bottom:;
   text-align:left;
 }
 
