@@ -84,8 +84,8 @@ a:visited {
   color:#55595D;
   text-decoration: none;}
 a:hover{
-  color: black;
-  text-decoration: underline;}
+  color: #18979C;
+  text-decoration: bolder;}
 
 .alignright {
   display:inline-block;
@@ -106,15 +106,23 @@ a:hover{
 
   /*------media queries--need top padding (not working), need to make arrows smaller (replace existing arrows with smaller image)-------*/
 
-
   /*mobiles*/
 
   @media (max-width:400px) {
-  .logo {
-          float: none !important;
-          padding-right:25%!important;
+    .logo {display:none;}
+    .mq-logo {
+      display:block;
+      padding-top:15%;
+    }
 
+     .mq-arrows {
+        display: block !important;
+        margin-left:53%;
+        position:absolute;
+        padding-top:22%;
       }
+
+    .logo {display:none;}
 
   header nav ul > li {
       display: block!important;
@@ -124,15 +132,14 @@ a:hover{
 
   }
 
-
   /*tablets--done*/
 
   @media (max-width: 767px) {
-  .logo {
-          float: none !important;
-  		width: auto!important;
-      }
+  .mq-arrows {display: none;}
+  }
 
+  @media (min-width: 768px) {
+    .mq-logo {display:none;}
   }
 
 /* ------------------------------------------------
@@ -180,6 +187,7 @@ a:hover{
 @media (max-width:400px) {
 .welcome-text-intro {
         font-size: 30px !important;
+         padding-top:20%;
     }
 .welcome-text-body {
         font-size:20px !important;
@@ -277,7 +285,7 @@ a:hover{
   font-size:20px!important;
    width: 80%!important;
    padding-top: 35%!important;
-   margin-left:8%!important;
+   margin:auto;
 }
 
 .den-title{
@@ -322,7 +330,7 @@ a:hover{
 
 .half-macbook{
   width:100%!important;
-  padding-top:60%!important;
+  padding-top:60%;
   margin:auto!important;
 }
 
@@ -432,7 +440,7 @@ padding-top:50px;
 }
 
 .den-hero a {
-  color:  #F28E8E;
+  color:  #F0B67F;
   margin:auto;
   font-size:25px;
   font-weight:300;
@@ -602,7 +610,7 @@ padding-top:50px;
   padding-top:20px;
   padding-bottom:20px;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #22C3C9;
   margin:auto;
   width:80%;
 }
@@ -627,7 +635,7 @@ padding-top:50px;
   padding-top:20px;
   padding-bottom:20px;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #F0B67F;
   width:80%;
   margin-left:30%;
   margin:auto;
@@ -694,7 +702,7 @@ padding-top:50px;
   margin:auto;
   width:80%;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #F0B67F;
   padding-top:30px;
 }
 
@@ -734,7 +742,7 @@ padding-top:50px;
   margin:auto;
   width:80%;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #22C3C9;
   padding-top:30px;
   padding-bottom:10px;
 }
@@ -866,7 +874,7 @@ padding-top:50px;
   margin:auto;
   width:80%;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #F0B67F;
   padding-top:30px;
 }
 
@@ -927,7 +935,7 @@ padding-top:50px;
   margin:auto;
   width:80%;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #22C3C9;
   padding-top:30px;
 }
 
@@ -1051,7 +1059,7 @@ padding-top:50px;
   padding-bottom:20px;
   margin:auto;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #F0B67F;
   padding-top:30px;
 }
 
@@ -1119,7 +1127,7 @@ padding-top:50px;
   padding-bottom:20px;
   margin:auto;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #22C3C9;
   padding-top:30px;
 }
 
@@ -1262,7 +1270,7 @@ padding-top:50px;
   padding-bottom:20px;
   margin:auto;
   border-bottom-style: solid;
-  border-bottom-color: #F28E8E;
+  border-bottom-color: #F0B67F;
   padding-top:30px;
 }
 
@@ -1335,7 +1343,7 @@ padding-top:50px;
     padding-bottom:20px;
     margin:auto;
     border-bottom-style: solid;
-    border-bottom-color: #F28E8E;
+    border-bottom-color: #22C3C9;
     padding-top:30px;
   }
 
@@ -1345,7 +1353,7 @@ padding-top:50px;
 }
 
 .key-learnings a {
-  color:  #F28E8E;
+  color:  #F0B67F;
   font-weight:300;
   font-size:25px;
   margin:auto;
@@ -1461,25 +1469,58 @@ footer p {
 
 }
 
+.mq-arrows {
+  display:none;
+}
+
+.mq-logo-mobile {
+  display:none;
+}
+
 /*media queries*/
 
 /*mobiles*/
 
 @media (max-width:400px) {
-  .main-section p {text-align:center;}
-  .middle-section p {text-align:center;}
-  .bottom-section p {text-align:center;}
+  .logo {display:none;}
+  .mq-logo {
+    display:block;
+    padding-top:15%;
+  }
+
+   .mq-arrows {
+      display: block !important;
+      margin-left:53%;
+      position:absolute;
+      padding-top:22%;
+    }
+  .main-section p {text-align:center;margin:auto;}
+  .middle-section p {text-align:center;margin:auto;}
+  .bottom-section p {text-align:center;margin:auto;}
   .bio-photo {
-    width:90%
+    width:90%;
 }
 }
 
   /*tablets*/
 
+  /*tablets*/
+
 @media (max-width: 767px) {
-  .main-section p {text-align:center;}
-  .middle-section p {text-align:center;}
-  .bottom-section p {text-align:center;}
+    .logo {display:none;}
+  .mq-logo {
+    display:block;
+    padding-top:15%;
+  }
+
+  .mq-arrows {display: none;}
+  .main-section p {text-align:center;margin:auto;}
+  .middle-section p {text-align:center;margin:auto;}
+  .bottom-section p {text-align:center;margin:auto;}
+}
+
+@media (min-width: 768px) {
+  .mq-logo {display:none;}
 }
 
 .resume {
