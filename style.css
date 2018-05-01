@@ -158,6 +158,8 @@ a:hover{
   margin:auto;
 }
 
+
+
 .welcome-text-intro {
   font-weight:200;
   line-height:1.5;
@@ -179,7 +181,7 @@ a:hover{
   margin:auto;
 }
 
-/*------media queries--need to make arrows smaller (replace existing arrows with smaller image)-------*/
+/*------media queries----*/
 
 
 /*mobiles*/
@@ -218,11 +220,10 @@ a:hover{
 -------------------------- Case Study on Homepage -----------
 ----------------------------------------------------*/
 
-
 .case-study{
   background-color: #FCF5ED;
   background-size: cover;
-  height:700px;
+  height:750px;
 }
 
 .den-shortdesc{
@@ -245,9 +246,13 @@ a:hover{
 }
 
 .half-macbook{
-  margin-left:600px;
-  width:1000px;
-  padding-top:50px
+  margin-left:50%;
+  width:50%;
+  padding-top:50px;
+}
+
+.mq-macbook {
+  display:none;
 }
 
 .horizontal-arrow {
@@ -270,15 +275,21 @@ a:hover{
 
 /*mobiles*/
 
-@media (max-width:400px) {
+@media (max-width:450px) {
 
 .case-study{
   height:600px;
 }
 
-.half-macbook {
-  width:100%!important;
-  padding-top:95%!important;
+.half-macbook{
+display:none;
+}
+
+.mq-macbook {
+  display:inline-block;
+  width:80%!important;
+  padding-top:90%;
+  margin:auto!important;
 }
 
 .den-shortdesc{
@@ -314,37 +325,41 @@ a:hover{
   height:1000px;
 }
 
+.half-macbook {
+display:none;
+}
+
+.mq-macbook {
+  display:inline-block;
+  width:80%!important;
+  padding-top:90%;
+  margin:auto!important;
+}
+
 .den-shortdesc{
   font-size:25px;
    width: 80%;
-   padding-top: 25%;
+   padding-top: 27%;
    margin-left:8%;
    position:absolute;
 }
 
 .den-title{
   font-family:nunito;
-  margin-left:40%;
+  margin-left:37%;
   padding-top:8%;
 }
 
-.half-macbook{
-  width:100%!important;
-  padding-top:60%;
-  margin:auto!important;
-}
-
 .horizontal-arrow {
-   padding-top:45%;
-   margin-left:60%;
-  position:absolute;
+   font-size:25px;
+   padding-top: 60%;
+   margin-left:55%;
 }
 
 .project-link {
    font-size:25px;
-   padding-top: 45%;
-   margin-left:30%;
-   position:absolute;
+   padding-top: 60%;
+   margin-left:15%;
 }
 }
 
@@ -623,6 +638,7 @@ padding-top:50px;
 
 .macbook-login{
   padding-top:25%;
+  width: fit-content;
 }
 
 .solution {
@@ -669,11 +685,14 @@ padding-top:50px;
 
 /*mobiles*/
 
-@media (max-width:400px) {
+@media (max-width:450px) {
+
+  .solution {
+    padding-top:50px !important;
+  }
 
   .macbook-login{
-    padding-top:1%;
-    width:100%;
+display:none;
   }
 .problem p {
   font-size: 20px;
@@ -681,6 +700,19 @@ padding-top:50px;
 .solution p {
   font-size: 20px;
 }
+}
+
+    /*tablets*/
+
+@media (max-width: 767px) {
+
+  .macbook-login{
+display:none;
+  }
+
+  .solution {
+   padding-top:400%;
+  }
 
 }
 
@@ -767,6 +799,17 @@ padding-top:50px;
 /*mobiles*/
 
 @media (max-width:400px) {
+
+  .survey-1 {
+    width: 80%;
+    margin: auto;
+  }
+
+    .survey-2 {
+    width: 80%;
+    margin: auto;
+  }
+
   .user-research {
   height:3250px !important;
   }
@@ -783,6 +826,17 @@ padding-top:50px;
   /*tablets*/
 
 @media (max-width: 767px) {
+
+  .survey-1 {
+    width: 80%;
+    margin: auto;
+  }
+
+    .survey-2 {
+    width: 80%;
+    margin: auto;
+  }
+
     .user-research p {
     font-size:20px;
   }
