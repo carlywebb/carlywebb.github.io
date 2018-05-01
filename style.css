@@ -64,7 +64,7 @@ ul li, ol li {
 ----------------------------------------------------*/
 
 header nav ul{
-    padding-top: 70px;
+    padding-top: 72px;
     margin: auto;
 }
 
@@ -95,6 +95,7 @@ a:hover{
   float:left;
   padding-right:500px;
   padding-top:25px;
+  padding-bottom:3%;
 }
 
 .top-bar {
