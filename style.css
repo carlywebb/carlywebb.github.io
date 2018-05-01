@@ -64,7 +64,7 @@ ul li, ol li {
 ----------------------------------------------------*/
 
 header nav ul{
-    padding-top: 55px;
+    padding-top: 70px;
     margin: auto;
 }
 
@@ -94,7 +94,7 @@ a:hover{
 .logo {
   float:left;
   padding-right:500px;
-  padding-top:20px;
+  padding-top:25px;
 }
 
 .top-bar {
@@ -942,7 +942,7 @@ padding-top:50px;
   font-weight:300;
   font-size:25px;
   margin:auto;
-  line-height:100px;
+  line-height:150px;
 }
 
 .user-stories li {
@@ -1407,6 +1407,7 @@ footer p {
 --------------------------Bio-----------
 ----------------------------------------------------*/
 
+
 .main-section {
   width:80%;
   margin:auto;
@@ -1421,29 +1422,33 @@ footer p {
 }
 
 .main-section p {
-  margin:auto;
   padding-top:20px;
+  margin-left:20px;
+  width:98%;
   text-align:left;
 }
 
 .middle-section p {
-  margin:auto;
-  padding-top:20px;
+  padding-top:10px;
   text-align:left;
 }
 
 .bio-photo {
   margin:auto;
-  padding-top:50px;
 }
 
 .footer-section-bio{
   background:#FCF5ED;
 }
 
+.footer-section-bio p {
+  padding-bottom:1%;
+}
+
 .bottom-section p {
-  margin:auto;
-  padding-top:20px;
+  margin-left:160px;
+  padding-top:10px;
+  padding-bottom:
   text-align:left;
 }
 
