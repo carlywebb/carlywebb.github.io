@@ -26,75 +26,62 @@
     <body>
       <header>
         <!---navigation bar--->
-        <nav class="container-fluid">
-        <div class="top-bar">
-              <a href="index.html" class="logo"><img src="images/logo-copy.png" alt="Carly Webb" style="width:300px;"/></a>
-              <a href="index.html" class="mq-logo"><img src="images/mq-logo-mobile.png" alt="Carly Webb" style="width:300px;"/></a>
-              <img src="images/mq-3arrows.png" class="mq-arrows" alt="link-arrows">
-             <ul class="alignright">
-                <li><a href="project.html">Work</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="mailto:carlywebb@gmail.com">Contact</a></li>
-             </ul>
-           </div>
-         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="images/logo-copy.png" alt="Carly Webb" style="width:300px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="project.html">Work</a>
+              <a class="nav-link" href="resume.html">Resume</a>
+              <a class="nav-link" href="mailto:carlywebb@gmail.com">Contact</a>
+            </div>
+          </div>
+        </nav>
 
       <!---hero--->
-      <section class=homepage-hero>
-       <div class="container">
-          <div class="hero-panel">
-            <h1 class="welcome-text-intro">Hi! I'm Carly.</h1>
-            <h2 class="welcome-text-body">I'm a User Experience Designer in San Diego.</br></h2>
-             <h3 class="welcome-text-bottom">I am glad you stopped by! Stay a while and check out my work.</h3>
-             <img src="images/triangles-down.png" class=down-arrow alt="DownArrow">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4">Hi! I'm Carly</h1>
+          <p class="lead">I'm a User Experience Designer based in San Diego</p>
+          <p class="follow">I am glad you stopped by! Stay a while and check out my work.</p>
+          <img src="images/triangles-down.png" class=down-arrow alt="DownArrow">
         </div>
       </div>
-    </section>
 
       <!--case study-->
-      <section class="case-study">
-          <div class="container">
-            <div class="row">
-
+      <section class="den">
+        <div class="row align-items-center">
           <div class="col">
-          <div class="right-col">
-           <h1 class="den-title">Den</h1>
-           <p class="den-shortdesc">More than just a cloud platform, Den is the easiest way to organize all of your content across your devices.</p>
-           <a href="project.html"class="project-link">View Case Study</a>
-           <a href="index.html" class="horizontal-arrow"><img src="images/pink-arrow.png"></a>
-         </div>
-       </div>
-
-       <div class="col">
-         <div class="left-col">
-           <a href="project.html"><img class="half-macbook" src="images/cropped-macbook.png"></a>
-           <a href="project.html"><img class="mq-macbook" src="images/den-macbook-half.png"></a><br>
-         </div>
-       </div>
-
-     </div>
-   </div>
-</section>
-
-       <!--footer-->
-    <footer>
-      <div class="container">
-        <div class="footer-section">
-          <h1 class=footer-text>I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h1>
-          <ul>
-            <li><a href="bio.html">About Me</a></li>
-            <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
-            <li><a href="resume.html">Resume</a></li>
-          </ul>
-          <ul>
-            <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
-            <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
-            <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
-          </ul>
-                <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
+            <h1 class="den-title">Den</h1>
+            <p class="den-shortdesc">More than just a cloud platform, Den is the easiest way to organize all of your content across your devices.</p>
+            <a href="project.html"class="project-link">View Case Study</a>
+            <a href="index.html" class="horizontal-arrow"><img src="images/pink-arrow.png"></a>
+          </div>
+      <!--1 of 2-->
+          <div class="col">
+            <a href="project.html"><img class="mq-macbook" src="images/den-macbook-half.png"></a>
+      <!--2 of 2-->
           </div>
         </div>
-      </footer>
+      </section>
+
+       <!--footer-->
+       <footer class="footer">
+         <h3 class=footer-text>I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h1>
+           <ul>
+             <li><a href="bio.html">About Me</a></li>
+               <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
+               <li><a href="resume.html">Resume</a></li>
+           </ul>
+             <ul>
+             <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
+             <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
+             <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
+           </ul>
+             <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
+       </footer>
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->

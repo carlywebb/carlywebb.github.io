@@ -3,56 +3,39 @@
 *:before,
 *:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
 
+html, body {
+    overflow-x:hidden;
+}
+
 html {
   font-size:10px;
-}
-
-.container-fluid {
- padding: 0;
-}
-
-.container {
-  height:100vh;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0;
-}
-
-h1, h2, h3, h4 {
-    color:#55595D;
-    font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
-    font-weight: 200px;
-    letter-spacing: 2px;
-    line-height: 36px;
-    text-align: center;
 }
 
 body {
     color:#55595D;
     font-family: 'Lato', 'Raleway', 'Varela Round','Nunito' sans-serif;
-    font-weight: 200px;
     text-align: center;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight:200;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight:300;
     width:80%;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight:300;
     width:80%;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight:200;
     width:80%;
 }
@@ -65,7 +48,7 @@ p {
 }
 
 ul li, ol li {
-    font-size: 25px;
+    font-size: 2.5rem;
     line-height: 1.5;
     font-weight:200;
 }
@@ -74,359 +57,155 @@ ul li, ol li {
 -------------------------- Nav -----------
 ----------------------------------------------------*/
 
-header nav ul{
-    padding-top: 72px;
-    margin: auto;
-}
-
-/*takes out bullet points*/
-
-header nav ul > li {
-    display: inline-block;
-    margin: 0 25px;
-}
-
-/*lines up nav text*/
-
 a:link {
   color:#55595D;
   text-decoration: none;}
 a:visited {
   color:#55595D;
   text-decoration: none;}
-a:hover{
+a li:hover{
   color: #18979C;
   text-decoration: bolder;}
 
-.alignright {
-  display:inline-block;
+.navbar-brand {
+  margin-left:7rem;
+  padding:2rem;
 }
 
-.logo {
-  float:left;
-  padding-right:500px;
-  padding-top:25px;
-  padding-bottom:3%;
+.navbar-nav{
+  color:#55595D;
+  padding-top:6rem;
+  margin-left:50%;
+  font-size:2.5rem;
+  font-family:raleway;
 }
 
-.top-bar {
-  background-color: white;
-  display: inline-block;
+.nav-link {
+  margin-left:3.5rem;
 }
 
+  nav ul > li {
+    display:inline;
+    margin: 0 20px;
+}
 
-  /*------media queries--need top padding (not working), need to make arrows smaller (replace existing arrows with smaller image)-------*/
+    /*mobiles*/
 
-  /*mobiles*/
+@media (max-width:400px) {
+.navbar-brand {
+  margin:0 auto;
+}
+}
 
-  @media (max-width:400px) {
-    .logo {display:none;}
-    .mq-logo {
-      display:block;
-      padding-top:15%;
-    }
-
-     .mq-arrows {
-        display: block !important;
-        margin-left:53%;
-        position:absolute;
-        padding-top:22%;
-      }
-
-    .logo {display:none;}
-
-  header nav ul > li {
-      display: block!important;
-      padding:10%!important;
-      margin:0!important;
-  }
-
-  }
-
-  /*tablets--done*/
-
-  @media (max-width: 767px) {
-  .mq-arrows {display: none;}
-  }
-
-  @media (min-width: 768px) {
-    .mq-logo {display:none;}
-  }
 
 /* ------------------------------------------------
 -------------------------- Hero -----------
 ----------------------------------------------------*/
-.down-arrow {
-  padding-top:40px
-}
 
-.homepage-hero {
-  background-image: url('images/mountains.png');
-  background-size: cover;
-  padding-top:10px;
-}
+  .jumbotron {
+      margin-bottom: 0px;
+      background-image: url('images/mountains.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color:#55595D;
+    }
 
-.welcome-text-intro {
-  font-weight:500;
-  line-height:1.5;
-  padding-top:120px;
-  margin:auto;
-}
-
-.welcome-text-body {
-  font-weight:300;
-  line-height:1.5;
-  width:100%;
-  margin:auto;
-}
-
-.welcome-text-bottom {
+    .display-4 {
+  font-size: 6.4rem;
   font-weight:400;
-  line-height:1.5;
-  padding-top:50px;
-  margin:auto;
+  padding-top:25rem;
+  margin: 0 auto;
+  color: #55595D;
 }
 
-/*------media queries----*/
-
-
-/*mobiles*/
-
-@media (max-width:400px) {
-.welcome-text-intro {
-        font-size: 30px !important;
-         padding-top:20%;
-    }
-.welcome-text-body {
-        font-size:20px !important;
-        }
-.welcome-text-bottom {
-        font-size:20px !important;
-}
+.lead {
+  font-size:4rem;
+  margin: 0 auto;
+  padding-top:5rem
 }
 
-/*tablets*/
+.follow {
+  font-size:3rem;
+  margin: 0 auto;
+  padding-top:5rem
+}
 
-@media (max-width: 767px) {
-.welcome-text-intro {
-        font-size: 30px !important;
-    }
-.welcome-text-body {
-        font-size:25px !important;
-    }
-.welcome-text-bottom {
-        font-size:25px !important;
-    }
 
+.down-arrow {
+  padding-top:5rem;
+  padding-bottom:15rem;
 }
 
 /* ------------------------------------------------
--------------------------- Case Study on Homepage -----------
+-------------------------- Case Study -----------
 ----------------------------------------------------*/
-.case-study{
-  background-color: #FCF5ED;
-  background-size: cover;
-  height:750px;
+.den {
+    background-color: #FCF5ED;
+}
+
+.den-title{
+  font-family:nunito;
+  padding-left:3rem;
 }
 
 .den-shortdesc {
-  font-size:30px;
   font-weight:300;
-  float:left;
-  width: 50rem;
-  padding-top:20rem;
-}
-
-.den-title{
-  font-family:nunito;
-  margin-left:20rem;
-  padding-top:10rem;
-  position:absolute;
+  margin-left:10rem;
+  width:50rem;
 }
 
 .horizontal-arrow {
-  float:left;
-  padding-top: 2rem;
-  padding-left:10px;
+  padding-left:1rem;
 }
 
 .project-link {
-   font-size:25px;
-   float:left;
-   padding-top: 2rem;
-   margin-left:15rem;
+   font-size:2.5rem;
 }
 
-.half-macbook{
-  margin-left:25%;
-  width:60rem;
-  padding-top:10rem;
+.mq-macbook{
+  margin: 0 auto;
+  float:right;
+  width:65rem;
+  padding-top:15rem;
+  padding-bottom: 10rem;
+  margin-right:10rem;
 }
-
-.mq-macbook {
-  display:none;
-}
-
-/*media queries*/
-
-/*mobiles*/
-
-@media (max-width:450px) {
-
-.case-study{
-  height:600px;
-}
-
-.half-macbook{
-display:none;
-}
-
-.mq-macbook {
-  display:inline-block;
-  width:80%!important;
-  padding-top:90%;
-  margin:auto!important;
-}
-
-.den-shortdesc{
-  font-size:20px!important;
-   width: 80%!important;
-   padding-top: 35%!important;
-   margin:auto;
-}
-
-.den-title{
-  font-family:nunito;
-  margin-left:30%!important;
-  padding-top:8%!important;
-}
-
-.horizontal-arrow {
-   padding-top:75%!important;
-   margin-left:67%!important;
-}
-
-.project-link {
-   font-size:25px!important;
-   padding-top: 75%!important;
-   margin-left:15%!important;
-}
-}
-
-@media (max-width: 1200px) {
-
-.case-study {
-  height:100vh;
-}
-
-.half-macbook {
-display:none;
-}
-
-.mq-macbook {
-  display:block;
-  float:left;
-  padding-top:8rem;
-  width:60rem;
-  margin:auto;
-}
-}
-
-/*tablets*/
-
-@media (max-width: 767px) {
-
-.case-study{
-}
-
-.half-macbook {
-display:none;
-}
-
-.mq-macbook {
-  display:block;
-  float:left;
-  padding-top:8rem;
-  width:60rem;
-  margin:auto;
-}
-
-.den-shortdesc{
-  font-size:25px;
-   width: 80%;
-   padding-top: 27%;
-   margin-left:8%;
-   position:absolute;
-}
-
-.den-title{
-  font-family:nunito;
-  margin-left:37%;
-  padding-top:8%;
-}
-
-.horizontal-arrow {
-   font-size:25px;
-   padding-top: 60%;
-   margin-left:55%;
-}
-
-.project-link {
-   font-size:25px;
-   padding-top: 60%;
-   margin-left:15%;
-}
-}
-
-/* ------------------------------------------------
--------------------------- Footer -----------
-----------------------------------------------------*/
-.footer-text{
-  font-size:20px;
-  font-weight:200;
-  line-height:1.5 !important;
-  margin:auto;
-  padding-top:50px;
-  width:800px;
-}
-
-footer ul{
-    font-weight:200;
-    padding-top: 25px;
-    line-height:3.5 !important;
-}
-
-/*takes out bullet points*/
-footer ul > li {
-    display: inline-block;
-    margin: 0 50px;
-}
-
-footer p {
-  font-size:16px;
-  font-weight:100;
-  width:
-}
-
-/*media queries*/
 
 /*mobiles*/
 
 @media (max-width:400px) {
-  .footer-text{
-    width:80%;
-
-  }
-}
-
-  /*tablets*/
-
-@media (max-width: 767px) {
-    .footer-text{
-    width:80%;
+.den-shortdesc {
+margin:0 auto;
+width:80%;
 }
 }
 
+    /* ------------------------------------------------
+    -------------------------- Footer -----------
+    ----------------------------------------------------*/
+
+    .footer h3 {
+      padding-top:5rem;
+      margin: 0 auto;
+      width:50%
+    }
+
+        footer ul{
+            padding-top: 2rem;
+        }
+
+        footer ul > li {
+          padding-top:2rem;
+            display: inline-block;
+            margin: 0 50px;
+        }
+
+        footer p {
+          padding-top:2rem;
+          padding-bottom: 0.5rem;
+          font-weight:100;
+          margin:0 auto;
+        }
 
 /* ------------------------------------------------
 -------------------------- Case Study Hero-----------
