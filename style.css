@@ -535,6 +535,11 @@ display:none;
   padding-top:30px;
 }
 
+
+.user-research h4 {
+font-weight:300;
+}
+
 .user-research p {
   margin:auto;
   padding-top:20px;
@@ -542,10 +547,16 @@ display:none;
   width:80%;
 }
 
-.user-research li {
+  .user-research li {
   text-align:left;
   margin-left:40px;
   font-size:20px;
+  line-height:.5 !important;
+
+}
+
+.user-research ul {
+    list-style-image: url("images/bullet-arrow.png");
 }
 
 .survey-1{
@@ -593,8 +604,6 @@ display:none;
 
 /*media queries*/
 
-/*mobiles*/
-
 @media (max-width:400px) {
 
   .survey-1 {
@@ -607,16 +616,16 @@ display:none;
     margin: auto;
   }
 
-  .user-research {
-  height:3250px !important;
-  }
-
   .user-research p {
     font-size:20px;
   }
 
   .what-discovered p {
     font-size:20px;
+  }
+
+  .user-research li {
+    line-height:1.5 !important;
   }
 }
 
@@ -640,6 +649,10 @@ display:none;
 
   .what-discovered p {
     font-size:20px;
+  }
+
+    .user-research li {
+    line-height:1.5 !important;
   }
 }
 

@@ -27,52 +27,49 @@
     <body>
       <header>
         <!---navigation bar--->
-        <nav class="container-fluid">
-        <div class="top-bar">
-              <a href="index.html" class="logo"><img src="images/logo-copy.png" alt="Carly Webb" style="width:300px;"/></a>
-              <a href="index.html" class="mq-logo"><img src="images/mq-logo-mobile.png" alt="Carly Webb" style="width:300px;"/></a>
-              <img src="images/mq-3arrows.png" class="mq-arrows" alt="link-arrows">
-             <ul class="alignright">
-                <li><a href="bio.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="mailto:carlywebb@gmail.com">Contact</a></li>
-             </ul>
-           </div>
-         </nav>
-       </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="images/logo-copy.png" alt="Carly Webb" style="width:300px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="bio.html">About</a>
+              <a class="nav-link" href="resume.html">Resume</a>
+              <a class="nav-link" href="mailto:carlywebb@gmail.com">Contact</a>
+            </div>
+          </div>
+        </nav>
 
 <!--centered project links-->
-<nav class="container-fluid">
-  <div class="den-project-links">
-    <ul class="top-project-links">
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#discovery">Discovery</a></li>
-    <li><a href="#creation">Creation</a></li>
-    <li><a href="#reflection">Reflection</a></li>
-  </ul>
-  </div>
-</nav>
+<section class="nav-project-links">
+<ul class="nav justify-content-center">
+  <li class="nav-item"><a class="nav-link" href="#overview">Overview</a>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="#discovery">Discovery</a>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="#creation">Creation</a>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a>
+  </li>
+</ul>
+</section>
 
 <!--Den intro page-->
-<div class="container-fluid">
 <div class="den-background">
 <img class="den-background-image" src="images/den-cover.png" alt="Den Background">
 </div>
 </div>
 
 <!--Den intro page-->
-  <div class="container-fluid">
      <div class="den-hero">
         <p> More than just a cloud platform, Den is the easiest way to organize all of your content across your devices. </p><br>
         <a href="https://invis.io/3TG5ANSW9KP">View the InVision Prototype</a>
         <a href="index.html" class="arrow"><img src="images/orange-arrow.png"></a><br>
         <img src="images/den-macbook.png" class="den-macbook-small" alt="Den Preview">
     </div>
-  </div>
 
 <!--Roles, Deliverables, Tools-->
-
-  <div class="container-fluid">
     <div class="role-deliver-tool">
     <ul class="row">
      <li class="col">
@@ -109,17 +106,14 @@
            </ul>
      </li>
     </ul>
-  </div>
 
 <!--Overview-->
 <!--bookmark-->
-<div class="container-fluid">
    <div class="overview">
      <img src="images/overview-icon.png" alt="Book Icon" class="book-icon">
      <h3 id="overview">Overview</h3>
       <p>Den is a SAAS product that is accessible on any device, and is used for uploading content, images and notes as well as sharing content with friends, family or coworkers. It is used as an organizational tool to have one central location for all of your content where you can live whenever you need to access something, share something or add a new photo or favorite link.</p>
     </div>
-  </div>
 
 <!--Problem/Solution-->
 
@@ -139,7 +133,6 @@
     <div class="col">
       <img class="macbook-login" src="images/login-screen.png" alt="Macbook Login Screen">
   </div>
-
 </div>
 </div>
 
@@ -170,51 +163,50 @@
 
 <!--User Research-->
 <!--bookmark-->
-<div class="container-fluid">
    <div class="user-research">
      <img src="images/research-icon.png" alt="Research Icon">
      <h3 id="discovery">User Research</h3>
      <div>
       <p>I created a user research survey to diagnose the major pain points and understand better how users interacted with the current cloud platforms on the market. Focuses were:</p>
-        <ol type="1">
+        <ul>
           <li>How people browsed the internet and saved interesting content</li>
           <li>How people liked to separate their personal and professional content</li>
           <li>What tools people used to save online content, save their own personal documents and what they liked or disliked about those tools</li>
           <li>How people shared resources with colleages at work and personal friends respectively</li>
-        </ol>
+        </ul>
         <div>
           <img class="survey-1" src="images/user-survey-1.png" alt="Survey 1">
           <img class="survey-2" src="images/user-survey-2.png" alt="Survey 2">
           <div>
             <p>I summarized the data and identified common user motivations, frustrations, and considerations, including:</p>
             <h4>Top used cloud apps:</h4>
-            <ol type="1">
+            <ul>
               <li>Google Drive</li>
               <li>iCloud</li>
               <li>Dropbox</li>
               <li>Pinterest</li>
-            </ol>
+            </ul>
             <div>
               <h4>Most important features:</h4>
-            <ol type="1">
+            <ul>
               <li>Ability to share content and information easily with others</li>
               <li>Uploading files (Images, pdf, video) from mobile device</li>
               <li>Sharing a single item with someone else and vice versa</li>
               <li>Downloading items for offline usage</li>
               <li>Share a folder with someone else and vice versa</li>
-            </ol>
+            </ul>
             <div>
               <h4>Least important features:</h4>
-            <ol type="1">
+            <ul>
               <li>Saving content you find on the web</li>
               <li>Creating original content</li>
               <li>Ability to connect with other for real-time collaboration on notes and documents</li>
               <li>Ability to download for offline usage</li>
-            </ol>
+            </ul>
               <div class="what-discovered">
               <h3>What I Discovered</h3>
               <p>The data that I gathered gave me incredible insight, namely that there are a few features that users find most important in their cloud storage app and there are gaps in the cloud market for these features.  Users wanted the ability to share content and information easily with others, the ability to upload files (Images, pdf, video) from their mobile device, share a single item or a folder with someone else and vice versa and download items for offline usage. From the data that I gathered in my survey I could already see the beginning of a new organization-based cloud storage platform that would meet users’ needs personally and professionally.</p>
-              <a href="https://drive.google.com/open?id=1SORurpmiuIs9jvy8HSsR3LR4yZ-pQsAmSSX0du2ftWw">View Full Survey Results</a>
+              <a href="https://docs.google.com/forms/d/1SORurpmiuIs9jvy8HSsR3LR4yZ-pQsAmSSX0du2ftWw/edit#responses">View Full Survey Results</a>
               <a href="index.html" class="arrow"><img src="images/pink-arrow.png"></a><br>
           </div>
           </div>
@@ -223,10 +215,7 @@
         </div>
       </div>
     </div>
-  </div>
-
 <!--User Personas-->
-    <div class="container-fluid">
        <div class="user-personas">
       <img src="images/up-icon.png" alt="User Persona Icon">
         <h3>User Personas</h3>
@@ -235,10 +224,8 @@
             <img class="melanie" src="images/persona-m.png" alt="Melanie">
             <img class="alison" src="images/persona-a.png" alt="Alison">
           </div>
-        </div>
 
 <!--Competitive Analysis-->
-    <div class="container-fluid">
        <div class="competitive-analysis">
       <img src="images/competitive-icon.png" alt="Competitive Icon">
         <h3>Competitive Analysis</h3>
@@ -250,10 +237,8 @@
             <img class="pinterest" src="images/pinterest.png" alt="Pinterest">
                 <p>Pinterest was an interesting analysis because it doesn’t quite fit the mold of a cloud platform, but it also doesn’t not fit the mold. There are aspects to Pinterest that are very appealing to users, specifically the design and intuitiveness of use. On the other hand there are limitations in capability and they have a limited audience since it appeals mainly to women. I used Pinterest as a model for the dashboard for Den, since users seem to like the ease of visual organization in the platform.</p>
           </div>
-        </div>
 
 <!--User Stories-->
-      <div class="container-fluid">
          <div class="user-stories">
         <img src="images/user-stories-icon.png" alt="User Stories Icon">
           <h3>User Stories</h3>
@@ -269,12 +254,10 @@
               <a href="index.html" class="arrow"><img src="images/pink-arrow.png"></a>
             </div>
           </div>
-      </div>
 
 <!--User Flows and Sitemap-->
 <!--bookmark-->
-<section class="flowmap"
-    <div class="container-fluid">
+<section class="flowmap">
        <div class="flows-map">
           <img src="images/sitemap-icon.png" alt="User Flows and Sitemap Icon">
          <h3 id="creation">User Flows &amp; Sitemap</h3>
@@ -285,11 +268,9 @@
           <img class="sitemap" src="images/den-sitemap.png" alt="Den Sitemap">
      </div>
     </div>
-  </div>
 </section>
 
 <!--Identity, Brand Story and Logo-->
-<div class="container-fluid">
   <div class="brand-story">
     <img src="images/identity-icon.png" alt="Identity and Brand Story Icon">
        <div>
@@ -301,10 +282,8 @@
             <img class="color-logo" src="images/color-logo-den.png" alt="Color Logo">
           </div>
        </div>
-    </div>
 
 <!--Colors Typeface and Style-->
-<div class="container-fluid">
   <div class="colors-type-style">
     <img src="images/paintcans-icon.png" alt="Colors, Typeface and Style Icon ">
        <div>
@@ -316,11 +295,9 @@
             <img class="typeface-2" src="images/den-typeface-2.png" alt="Typeface Example 2">
           </div>
        </div>
-    </div>
 
 <!--Sketches Wireframes Testing-->
 <section class="wireframes-testing">
-<div class="container-fluid">
     <img src="images/wireframe-icon.png" alt="Wireframes Icon ">
        <div>
          <h3>Sketches, Balsamiq Wireframes &amp; User Testing</h3>
@@ -336,28 +313,22 @@
                 <p>My testing results showed that the initial ideas were good, but there needed to be more depth to the content and the sizing and details and placement of CTAs needed to be more deliberate. I took these results into my next phase, which was to create my high fidelity mockups.</p>
             </div>
           </div>
-       </div>
 </section>
 
 <!--HiFi Prototype-->
-<div class="container-fluid">
   <div class="hifi-proto">
     <img src="images/paper-plane-icon.png" alt="HiFi Mockups Icon ">
     <h3>High Fidelity Prototype</h3>
       <p>I gathered all of my research and ideas and went to work creating Den’s first high-fidelity prototype in Sketch. This was the part when I really got to take all of the personality and capabilities that I wanted Den to have and bring it all to life. I created enough for Den’s MVP, which would include a landing page, a sign up page, a log in page, the dashboard, account settings and storage plan page. Also, in order to give the client an idea what the Den app would look like on mobile, I created a landing page, dashboard and navigation screen on mobile. Once this was complete, I went back to the client to get approval to move forward with more user testing. </p>
       <img class="hifi-mockup" src="images/hifi-mockup.png" alt="HiFi Den Mockup ">
     </div>
-  </div>
-  <div class="container-fluid">
     <div class="more-testing">
       <h3>More Testing and Finishing Touches</h3>
       <p>I loaded all of my mockups into InVision so that I could perform another series of tests with potential users to ensure that each revision to the design was done to improve usability. I also received feedback from key stakeholders regarding the layout to improve the flow and ensure all content was easily readable as well as accessible to all types of potential users. Final revisions were made once all of the concerns my users brought up were addressed, and the final product on Den was born. </p>
     </div>
-  </div>
 
 <!--Key Learnings-->
 <!--bookmark-->
-<div class="container-fluid">
   <div class="key-learnings">
     <img src="images/learnings-icon.png" alt="What I Learned Icon">
     <h3 id="reflection">What I Learned</h3>
@@ -368,11 +339,9 @@
         </div>
       </div>
     </div>
-  </div>
 
        <!--footer-->
     <footer>
-      <div class="container-fluid">
         <div class="footer-section">
             <a href="project.html" class="wantmore-link">Want More? Next Case Study</a>
             <ul>
@@ -388,7 +357,6 @@
                   <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
             </div>
           </div>
-        </footer>
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
