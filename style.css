@@ -103,39 +103,42 @@ a :hover{
 /* ------------------------------------------------
 -------------------------- Hero -----------
 ----------------------------------------------------*/
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('images/mountains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#55595D;
+    min-height:100%;
+  }
 
-  .jumbotron {
-      margin-bottom: 0px;
-      background-image: url('images/mountains.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      color:#55595D;
-    }
-
-    .display-4 {
-  font-size: 6.4rem;
-  font-weight:400;
-  padding-top:25rem;
-  margin: 0 auto;
-  color: #55595D;
+  .display-4 {
+font-family: raleway, sans-serif;
+font-size: 5rem;
+font-weight:400;
+padding-top:8rem;
+margin: 0 auto;
+color: #55595D;
 }
 
 .lead {
-  font-size:4rem;
-  margin: 0 auto;
-  padding-top:5rem
+font-family: raleway, sans-serif;
+font-size:3rem;
+margin: 0 auto;
+padding-top:4rem
 }
 
 .follow {
-  font-size:3rem;
-  margin: 0 auto;
-  padding-top:5rem
+font-family: raleway, sans-serif;
+font-size:2.5rem;
+margin: 0 auto;
+padding-top:2.5rem
 }
 
 
 .down-arrow {
-  padding-top:5rem;
-  padding-bottom:15rem;
+padding-top:5rem;
+padding-bottom:8rem;
 }
 
 /* ------------------------------------------------
@@ -152,8 +155,6 @@ a :hover{
 
 .den-shortdesc {
   font-weight:300;
-  margin-left:10rem;
-  width:50rem;
 }
 
 .horizontal-arrow {
@@ -175,11 +176,122 @@ a :hover{
 
 /*mobiles*/
 
-@media (max-width:400px) {
-.den-shortdesc {
-margin:0 auto;
-width:80%;
+@media (min-width:300px) and (max-width: 575px) {
+
+  .den-shortdesc {
+    float:inherit;
+    margin-top:-4rem;
+    margin-right:1rem;
+    display:inline-block;
+    text-align:center;
+  }
+  .den-title{
+    font-family:nunito;
+          text-align:center;
+  }
+  .horizontal-arrow {
+    float:right;
+    align-items: center;
+    padding-right:1rem;
+  }
+  .project-link {
+    float:left;
+    padding-left:1rem;
+     font-size:2.5rem;
+     text-align:center;
+  }
+  .mq-macbook{
+    float:inherit;
+    align-items: center;
+    width:100%;
+    padding-top:10rem;
+    padding-bottom: 10rem;
+  }
 }
+@media (min-width:576px) and (max-width: 767px) {
+
+  .den-shortdesc {
+    float:inherit;
+    margin-top:-4rem;
+    margin-right:5rem;
+    display:inline-block;
+    text-align:center;
+  }
+  .den-title{
+    font-family:nunito;
+          text-align:center;
+  }
+  .horizontal-arrow {
+    float:right;
+    align-items: center;
+    padding-right:10rem;
+  }
+  .project-link {
+    float:left;
+    padding-left:20rem;
+     font-size:2.5rem;
+     text-align:center;
+  }
+  .mq-macbook{
+    float:inherit;
+    align-items: center;
+    width:100%;
+    padding-top:10rem;
+    padding-bottom: 10rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px){
+  .den-shortdesc {
+    float:right;
+    margin-top:-4rem;
+  margin-right:1rem;
+  }
+  .den-title{
+    font-family:nunito;
+    padding-left: 5rem;
+  }
+  .horizontal-arrow {
+    float:right;
+  }
+  .project-link {
+     font-size:2.5rem;
+     float:left;
+     padding-left:12rem;
+  }
+  .mq-macbook{
+    float:right;
+    width: 65rem;
+    padding-top:10rem;
+    padding-bottom: 10rem;
+    margin-right:-30rem;
+  }
+}
+@media (min-width: 960px) and (max-width: 1500px){
+
+  .den-shortdesc {
+    float:inherit;
+    margin-top:-4rem;
+    position: relative;
+  display:inline-block;
+  }
+  .den-title{
+    font-family:nunito;
+    padding-left: 5rem;
+  }
+  .horizontal-arrow {
+    float:inherit;
+  }
+  .project-link {
+     font-size:2.5rem;
+     float:inherit;
+     padding-left:12rem;
+  }
+  .mq-macbook{
+    float:inherit;
+    width: 50rem;
+    padding-top:10rem;
+    padding-bottom: 10rem;
+  }
 }
 
     /* ------------------------------------------------
