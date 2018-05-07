@@ -106,8 +106,6 @@ a :hover{
 .jumbotron {
     margin-bottom: 0px;
     background-image: url('images/mountains.png');
-    background-size: cover;
-    background-repeat: no-repeat;
     color:#55595D;
     min-height:100%;
   }
@@ -141,11 +139,22 @@ padding-top:5rem;
 padding-bottom:8rem;
 }
 
+/*media queries*/
+
+/*mobiles*/
+
+@media (max-width:500px) {
+  .jumbotron{
+    min-height:100%;
+  }
+  }
+
 /* ------------------------------------------------
 -------------------------- Case Study -----------
 ----------------------------------------------------*/
 .den {
     background-color: #FCF5ED;
+    min-height:100%;
 }
 
 .den-title{
@@ -668,7 +677,7 @@ font-weight:300;
 }
 
 .user-research ul {
-    list-style-image: url("images/bullet-arrow.png");
+    list-style-image: url("./images/bullet-arrow.png");
 }
 
 .survey-1{
@@ -1387,7 +1396,9 @@ footer p {
 /* ------------------------------------------------
 --------------------------Bio-----------
 ----------------------------------------------------*/
-
+.bio-body {
+line-height:2.5;
+}
 
 .main-section {
   width:80%;
@@ -1403,32 +1414,36 @@ footer p {
 }
 
 .main-section p {
-  padding-top:20px;
-  margin-left:20px;
+  padding-top:3rem;
+  margin-left:2rem;
   width:98%;
   text-align:left;
 }
 
 .middle-section p {
-  padding-top:10px;
   text-align:left;
+  padding-top:3rem;
+  margin: 0;
 }
 
 .bio-photo {
-  margin:auto;
+  margin:0 auto;
+  padding-bottom:5rem;
+  padding-top:5rem;
 }
 
-.footer-section-bio{
+.footer {
   background:#FCF5ED;
 }
 
 .footer-section-bio p {
   padding-bottom:1%;
+  padding-top:3rem;
 }
 
 .bottom-section p {
-  margin-left:160px;
-  padding-top:10px;
+  margin-left:16rem;
+  padding-top:1rem;
   padding-bottom:;
   text-align:left;
 }
@@ -1437,34 +1452,14 @@ footer p {
   padding-top:30px;
   padding-bottom:25px;
   margin:auto;
-
 }
 
-.mq-arrows {
-  display:none;
-}
-
-.mq-logo-mobile {
-  display:none;
-}
 
 /*media queries*/
 
 /*mobiles*/
 
 @media (max-width:400px) {
-  .logo {display:none;}
-  .mq-logo {
-    display:block;
-    padding-top:15%;
-  }
-
-   .mq-arrows {
-      display: block !important;
-      margin-left:53%;
-      position:absolute;
-      padding-top:22%;
-    }
   .main-section p {text-align:center;margin:auto;}
   .middle-section p {text-align:center;margin:auto;}
   .bottom-section p {text-align:center;margin:auto;}
@@ -1478,20 +1473,21 @@ footer p {
   /*tablets*/
 
 @media (max-width: 767px) {
-    .logo {display:none;}
-  .mq-logo {
-    display:block;
-    padding-top:15%;
-  }
-
-  .mq-arrows {display: none;}
   .main-section p {text-align:center;margin:auto;}
-  .middle-section p {text-align:center;margin:auto;}
-  .bottom-section p {text-align:center;margin:auto;}
-}
+  .middle-section p {
+    text-align:center;
+    padding-top:3rem;
+    width:95%;
+    }
+  .bottom-section p {
+    text-align:center;
+    margin:auto;
+    padding-top:3rem;
+    }
 
-@media (min-width: 768px) {
-  .mq-logo {display:none;}
+.bio-photo {
+  padding-top:5rem;
+}
 }
 
 .resume {
