@@ -307,10 +307,14 @@ padding-bottom:8rem;
     -------------------------- Footer -----------
     ----------------------------------------------------*/
 
+    .main-footer{
+      background: white;
+    }
+
     .footer h3 {
       padding-top:5rem;
       margin: 0 auto;
-      width:50%
+      width:50%;
     }
 
         footer ul{
@@ -672,7 +676,7 @@ font-weight:300;
   text-align:left;
   margin-left:40px;
   font-size:20px;
-  line-height:.5 !important;
+  line-height:1;
 
 }
 
@@ -775,6 +779,31 @@ font-weight:300;
     .user-research li {
     line-height:1.5 !important;
   }
+}
+
+@media (max width: 1285px){
+
+  .survey-1 {
+    width: 80%;
+    margin: auto;
+  }
+
+    .survey-2 {
+    width: 80%;
+    margin: auto;
+  }
+
+    .user-research p {
+    font-size:20px;
+  }
+
+  .what-discovered p {
+    font-size:20px;
+  }
+
+  .user-research li {
+  line-height:1.5 !important;
+}
 }
 
 
@@ -1396,6 +1425,12 @@ footer p {
 /* ------------------------------------------------
 --------------------------Bio-----------
 ----------------------------------------------------*/
+.footer-text {
+  margin: 0 auto;
+  width: 50%;
+  padding-top:2rem;
+}
+
 .bio-body {
 line-height:2.5;
 }
@@ -1432,7 +1467,7 @@ line-height:2.5;
   padding-top:5rem;
 }
 
-.footer {
+.bio-footer {
   background:#FCF5ED;
 }
 
