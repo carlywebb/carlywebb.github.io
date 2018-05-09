@@ -13,10 +13,12 @@
       <!--Google Font and Stylesheet-->
       <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Varela+Round" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bitter|Radley" rel="stylesheet">
 
       <!--CSS-->
       <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -42,9 +44,8 @@
 
       <!---hero--->
       <div class="jumbotron">
-          <h1 class="display-4">Hi! I'm Carly.</h1>
-          <p class="lead">I'm a User Experience Designer based in San Diego.</p>
-          <p class="follow">I am glad you stopped by! Stay a while and check out my work.</p>
+          <h1 class="display-4" data-aos="fade-left">Hello! I'm Carly.</h1>
+          <p class="lead" data-aos="fade-right">I'm a UX Designer in San Diego and I'm thrilled to share my work with you.</p>
           <img src="images/triangles-down.png" class=down-arrow alt="DownArrow">
         </div>
 
@@ -54,35 +55,35 @@
           <div class="col-lg-6 col-md-6 col-lg-5 text-right text-md-right section-intro">
             <h1 class="den-title">Den</h1>
             <p class="den-shortdesc">More than just a cloud platform, Den is the easiest way to organize all of your content across your devices.</p>
-            <a href="project.html"class="project-link">View Case Study</a>
-            <a href="index.html" class="horizontal-arrow"><img src="images/pink-arrow.png"></a>
+            <a href="project.html"class="project-link btn">View Case Study</a>
+            <a href="index.html" class="horizontal-arrow btn"><img src="images/pink-arrow.png"></a>
           </div>
       <!--1 of 2-->
           <div class="col-lg-6 col-md-6 col-lg-6">
-            <a href="project.html"><img class="mq-macbook" src="images/den-macbook-half.png"></a>
+            <a href="project.html"><img class="mq-macbook" src="images/den-macbook-half.png" data-aos="fade-left"></a>
       <!--2 of 2-->
           </div>
         </div>
       </section>
 
-       <!--footer-->
-       <section class="main-footer">
-           <footer class="footer-section">
-             <h3 class=footer-text>I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h3>
-               <ul>
-                 <li><a href="bio.html">About Me</a></li>
-                 <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
-                 <li><a href="resume.html">Resume</a></li>
-               </ul>
-               <ul>
-                 <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
-                 <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
-                 <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
-               </ul>
-                     <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
-               </div>
-             </footer>
-           </section>
+      <!--footer-->
+      <section class="main-footer">
+          <footer class="footer-section">
+            <h3 class="footer-text" data-aos="fade-up">I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h3>
+              <ul>
+                <li><a href="bio.html">About Me</a></li>
+                <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
+                <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
+              </ul>
+                    <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
+              </div>
+            </footer>
+          </section>
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -98,6 +99,16 @@
 
    gtag('config', 'UA-118454282-1');
  </script>
+
+ <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 1200,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
+</script>
 
   </body>
 </html>
