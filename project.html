@@ -185,7 +185,7 @@
 
 <!--User Research-->
 <!--bookmark-->
-   <div class="user-research">
+   <section class="user-research">
      <img src="images/research-icon.png" alt="Research Icon">
      <h3 id="discovery">User Research</h3>
      <div>
@@ -197,9 +197,24 @@
           <li>How people shared resources with colleages at work and personal friends respectively</li>
         </ul>
         <div>
-          <img class="survey-1" src="images/user-survey-1.png" alt="Survey 1">
-          <img class="survey-2" src="images/user-survey-2.png" alt="Survey 2">
-          <div>
+
+  <div class="survey__charts">
+
+  <div class="survey__charts-1">
+    <canvas id="chart1"></canvas>
+  </div>
+
+  <div class="survey__charts-2">
+    <canvas id="chart2"></canvas>
+  </div>
+
+  <div class="survey__charts-3">
+<canvas id="chart3"></canvas>
+  </div>
+
+</div>
+
+<!---
             <p>I summarized the data and identified common user motivations, frustrations, and considerations, including:</p>
             <h4>Top used cloud apps:</h4>
             <ul>
@@ -225,18 +240,20 @@
               <li>Ability to connect with other for real-time collaboration on notes and documents</li>
               <li>Ability to download for offline usage</li>
             </ul>
-              <div class="what-discovered">
+            ---->
+<div class="what-discovered">
               <h3>What I Discovered</h3>
               <p>The data that I gathered gave me incredible insight, namely that there are a few features that users find most important in their cloud storage app and there are gaps in the cloud market for these features.  Users wanted the ability to share content and information easily with others, the ability to upload files (Images, pdf, video) from their mobile device, share a single item or a folder with someone else and vice versa and download items for offline usage. From the data that I gathered in my survey I could already see the beginning of a new organization-based cloud storage platform that would meet users’ needs personally and professionally.</p>
               <a href="https://docs.google.com/forms/d/1SORurpmiuIs9jvy8HSsR3LR4yZ-pQsAmSSX0du2ftWw/edit#responses">View Full Survey Results</a>
               <a href="index.html" class="arrow"><img src="images/pink-arrow.png"></a><br>
           </div>
+
           </div>
         </div>
         </div>
-        </div>
-      </div>
-    </div>
+    </section>
+
+
 <!--User Personas-->
        <div class="user-personas">
       <img src="images/up-icon.png" alt="User Persona Icon">
@@ -506,6 +523,9 @@
     delay: 100,
   });
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+ <script src="cloud-charts.js"></script>
 
   </body>
 </html>
