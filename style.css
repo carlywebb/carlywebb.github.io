@@ -579,7 +579,6 @@ display:none;
 /* ------------------------------------------------
 -------------------------- User Research-----------
 ----------------------------------------------------*/
-
 .user-research {
   background:#FCF5ED;
   padding-top:3rem;
@@ -613,6 +612,48 @@ list-style-image: url("./images/bullet-arrow.png");
 
 }
 
+    .survey__charts-1 {
+      margin: 0 auto;
+      position: relative;
+      width: 50vw;
+      padding:5rem;
+      }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-1 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-1 {
+          width: 90vw; } }
+    .survey__charts-2 {
+      margin: 0 auto;
+      position: relative;
+      width: 70vw;
+      padding:5rem;
+      }
+      @media (max-width: 530px) {
+        .survey__charts-2 {
+          display:none; } }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-2 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-2 {
+          width: 90vw; } }
+    .survey__charts-3 {
+      margin: 0 auto;
+      position: relative;
+      width: 50vw;
+      padding:5rem;
+      }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-3 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-3 {
+          width: 90vw; } }
+
+/*---
+
 .survey-1{
   margin-right:60px;
   padding-top:30px;
@@ -624,8 +665,13 @@ list-style-image: url("./images/bullet-arrow.png");
   margin:auto;
 }
 
+--*/
+
 .what-discovered {
-  padding-top:50px;
+  background:#FCF5ED;
+  padding-top:3rem;
+  position: relative;
+  min-height:100%;
 }
 
 .what-discovered h3 {
@@ -647,24 +693,14 @@ list-style-image: url("./images/bullet-arrow.png");
 .what-discovered a {
   color:  #F28E8E;
   font-weight:500;
-  font-size:25px;
+  font-size:2.5rem;
   margin:auto;
-  line-height:100px;
+  line-height:10rem;
 }
 
 /*media queries*/
 
 @media (max-width:400px) {
-
-  .survey-1 {
-    width: 80%;
-    margin: auto;
-  }
-
-    .survey-2 {
-    width: 80%;
-    margin: auto;
-  }
 
   .user-research p {
     font-size:20px;
@@ -683,16 +719,6 @@ list-style-image: url("./images/bullet-arrow.png");
   /*tablets*/
 
 @media (max-width: 767px) {
-
-  .survey-1 {
-    width: 80%;
-    margin: auto;
-  }
-
-    .survey-2 {
-    width: 80%;
-    margin: auto;
-  }
 
     .user-research p {
     font-size:20px;
