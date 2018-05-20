@@ -1462,7 +1462,10 @@ line-height: 1.2;
 
 .hifi-mockup {
   width:70%
+}
 
+.carousel-item {
+  width:75%;
 }
 
 /*media queries*/

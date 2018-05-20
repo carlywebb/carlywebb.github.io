@@ -11,6 +11,18 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
+      <!-- You can override default styles in your CSS.-->
+      <link rel="stylesheet" href="path/to/frame-carousel/jquery.frame-carousel.min.css">
+      <script type="text/javascript" src="path/to/frame-carousel/jquery.frame-carousel.min.js"></script>
+
+
+      <link href="jquery.frameCarousel.css" rel="stylesheet">
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="jquery.frameCarousel.js"></script>
+      <script src="jquery.touchSwipe.min.js"></script>
+
+
+
       <!--Google Font and Stylesheet-->
       <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Varela+Round" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
@@ -496,7 +508,58 @@
     <img src="images/paper-plane-icon.png" alt="HiFi Mockups Icon ">
     <h3>High Fidelity Prototype</h3>
       <p>I gathered all of my research and ideas and went to work creating Den’s first high-fidelity prototype in Sketch. This was the part when I really got to take all of the personality and capabilities that I wanted Den to have and bring it all to life. I created enough for Den’s MVP, which would include a landing page, a sign up page, a log in page, the dashboard, account settings and storage plan page. Also, in order to give the client an idea what the Den app would look like on mobile, I created a landing page, dashboard and navigation screen on mobile. Once this was complete, I went back to the client to get approval to move forward with more user testing. </p>
-      <img class="hifi-mockup" src="images/hifi-mockup.png" alt="HiFi Den Mockup ">
+
+<!--Bootstrap Carousel that works
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/welcome-v1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/welcome-v2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/info-v1.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/info-v2.png" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/testimonial-v1.png" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/testimonial-v2.png" alt="Sixth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/pricing-v1.png" alt="Seveth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/pricing-v2.png" alt="Eighth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    -->
+
+<!--Frame Carousel-->
+
+    <div class="fc-mac"></div>
+
+<script>
+    $('.fc-mac').frameCarousel({
+      images: ['images/welcome-v1.png', 'images/welcome-v2.png', 'images/info-v1.png', 'images/info-v2.png']
+    });
+</script>
+
+<!--more testing-->
+
     </div>
     <div class="more-testing">
       <h3>More Testing and Finishing Touches</h3>
@@ -561,6 +624,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
  <script src="cloud-charts.js"></script>
+  <script src="util.js"></script>
 
   </body>
 </html>
