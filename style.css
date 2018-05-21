@@ -1465,7 +1465,8 @@ line-height: 1.2;
 }
 
 .carousel-item {
-  width:75%;
+  width:50%;
+  margin: 0 auto;
 }
 
 /*media queries*/
