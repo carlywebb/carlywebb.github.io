@@ -382,9 +382,11 @@
 <div class="section__body_comp">
 <div class="profiles profiles--three">
 <div class="profile">
+  <div class="profile__head">
       <div class="profile__avatar_comp">
             <img class="google" src="images/google-drive.png" alt="Google Drive">
           </div>
+        </div>
 
           <div class="profile__body">
           <p>I knew I definitely wanted to analyze Google Drive since it was very favorably ranked in my user survey, and it was most favored when it came to ease of use. Google Drive is a very intuitive platform but fails in a few areas. It appeals primarily to Google users, as you need to have a Google account in order to use it. It also fails to appeal and integrate with Apple devices and with Apple users, and it doesn’t run on Linux whereas Dropbox does.</p>
@@ -515,45 +517,6 @@
         <div><img class="slide" src="images/pricing-v2.png" alt="Eighth slide"></div>
       </div>
 
-
-<script>
-      $('responsive').slick({
-        dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
-        ]
-      });
-    </script>
-
 <!--Bootstrap Carousel that works-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -680,6 +643,44 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<script>
+      $('responsive').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+    </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
  <script src="cloud-charts.js"></script>
