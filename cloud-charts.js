@@ -13,7 +13,7 @@ var collaborate = document.getElementById("chart1").getContext('2d');
 
      },
      data: {
-         labels: ["Share photos and videos", "Share spreadsheets and documents so others can contribute to the document", "Share interesting content found on the web", "Share work with others",],
+         labels: ["Share photos/videos", "Share spreadsheets/documents", "Share content", "Share work",],
          datasets: [{
              label: 'Percentage of users surveyed',
              data: [56.5, 17.5, 17.4, 8.6],
@@ -94,7 +94,7 @@ var collaborate = document.getElementById("chart1").getContext('2d');
      }
      },
      data: {
-         labels: ["Sharing content with someone else", "Uploading files (images,videos,documents, PDF,etc)", "Saving content found on the web", "Organizing content into categories, tags, groups, and/or folders", "creating original content (notes, documents, blog posts, spreadsheets, etc)"],
+         labels: ["Sharing content", "Uploading files", "Saving content", "Organizing content", "Creating original content"],
          datasets: [{
              label: 'Percentage of users surveyed',
              data: [19, 12, 30, 23, 16],
