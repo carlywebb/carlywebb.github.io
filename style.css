@@ -131,6 +131,10 @@ li {
   display: none;
 }
 
+ul {
+  margin-bottom:0 !important;
+}
+
 .logo {
   width: 100%;
 }
@@ -180,6 +184,11 @@ li {
 
   ul.links {
     flex-direction: row;
+    margin-right:3rem;
+  }
+
+  ul {
+    margin-bottom:0!important;
   }
 
   li {
@@ -191,13 +200,13 @@ li {
     color: #55595D;
     display: block;
     font-size: 2rem;
-    padding: 5rem 1rem 2rem 1rem;
+    padding: 6rem 1rem 3rem 1rem;
     text-decoration: none;
   }
 
   .right a:hover {
     background-color: #B4F3E7;
-    padding: 5rem 1rem 2rem 1rem;
+    padding: 6rem 1rem 3rem 1rem;
     color: #55595D;
   }
 
@@ -603,6 +612,7 @@ padding-bottom:5rem;
 
 .profile__head__main h5{
   padding-top:2rem !important;
+  padding-bottom: 2rem !important;
   text-align:center !important;
   font-family:raleway, sans-serif !important;
   line-height: 1.5 !important;
@@ -610,6 +620,7 @@ padding-bottom:5rem;
 
 .profile__body__main h6 {
   padding-top:2rem !important;
+  padding-bottom:2rem!important;
   text-align:center !important;
   font-family:raleway, sans-serif !important;
   line-height: 1.5 !important;
