@@ -28,19 +28,25 @@
       <header>
 
         <!---navigation bar--->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img src="images/logo-copy.png" alt="Carly Webb" style="width:300px;"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="project.html">Work</a>
-              <a class="nav-link" href="resume.html">Resume</a>
-              <a class="nav-link" href="mailto:carlywebb@gmail.com">Contact</a>
-            </div>
-          </div>
-        </nav>
+              <nav>
+                <ul class="links">
+                  <li class="left">
+                    <a class="logo" href="index.html">
+                    <img src="https://www.carlywebb.com/images/logo-copy.png" alt="Carly Webb">
+                    </a>
+                  </li>
+                  <li class="push right"><a href="project.html">Work</a></li>
+                  <li class="right"><a href="resume.html">Resume</a></li>
+                  <li class="right"><a href="mailto:carlywebb@gmail.com">Contact</a></li>
+                </ul>
+
+                <div id="trigger" class="mobile">
+                  <span class="fa fa-align-justify"></span>
+                </div>
+
+              </nav>
+
+            </header>
 
         <!---main bio section--->
     <section class=bio-body>
@@ -83,20 +89,22 @@
 
 
 <!--footer-->
-<footer class="bio-footer">
-  <h3 class="footer-text" data-aos="fade-up" >I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h3>
-    <ul>
-      <li><a href="project.html">Work</a></li>
-        <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
-        <li><a href="resume.html">Resume</a></li>
-    </ul>
-      <ul>
-      <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
-      <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
-      <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
-    </ul>
-      <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
-</footer>
+<footer class="footer">
+      <div class="bio-footer">
+            <h5 data-aos="fade-up">I design and develop simple, intuitive experiences that make people’s lives easier. Get in touch and let’s talk UX!</h5>
+              <ul>
+                <li><a href="project.html">Work</a></li>
+                <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
+                <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
+              </ul>
+                    <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
+              </div>
+  </footer>
 
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->

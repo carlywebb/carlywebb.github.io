@@ -15,11 +15,6 @@
       <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Varela+Round" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
 
-      <!--Slick-->
-      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-      // Add the new slick-theme.css if you want the default styling
-      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
       <!--CSS-->
       <link rel="stylesheet" href="normalize.css">
       <link rel="stylesheet" href="style.css">
@@ -33,22 +28,27 @@
     <body>
       <header>
         <!---navigation bar--->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img src="images/logo-copy.png" class="img-fluid" alt="Carly Webb"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="bio.html">About</a>
-              <a class="nav-link" href="resume.html">Resume</a>
-              <a class="nav-link" href="mailto:carlywebb@gmail.com">Contact</a>
-            </div>
+        <nav>
+          <ul class="links">
+            <li class="left">
+              <a class="logo" href="index.html">
+              <img src="https://www.carlywebb.com/images/logo-copy.png" alt="Carly Webb">
+              </a>
+            </li>
+            <li class="push right"><a href="project.html">Work</a></li>
+            <li class="right"><a href="resume.html">Resume</a></li>
+            <li class="right"><a href="mailto:carlywebb@gmail.com">Contact</a></li>
+          </ul>
+
+          <div id="trigger" class="mobile">
+            <span class="fa fa-align-justify"></span>
           </div>
+
         </nav>
+      </header>
 
 <!--centered project links-->
-<section class="nav-project-links">
+<section class="navprojectlinks">
 <ul class="nav justify-content-center">
   <li class="nav-item"><a class="nav-link" href="#overview">Overview</a>
   </li>
@@ -59,7 +59,7 @@
   <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a>
   </li>
 </ul>
-</section>
+<section>
 
 <!--Den intro page-->
 <div class="den-background">
@@ -219,40 +219,11 @@
 
 </div>
 
-
-<!---
-            <p>I summarized the data and identified common user motivations, frustrations, and considerations, including:</p>
-            <h4>Top used cloud apps:</h4>
-            <ul>
-              <li>Google Drive</li>
-              <li>iCloud</li>
-              <li>Dropbox</li>
-              <li>Pinterest</li>
-            </ul>
-            <div>
-              <h4>Most important features:</h4>
-            <ul>
-              <li>Ability to share content and information easily with others</li>
-              <li>Uploading files (Images, pdf, video) from mobile device</li>
-              <li>Sharing a single item with someone else and vice versa</li>
-              <li>Downloading items for offline usage</li>
-              <li>Share a folder with someone else and vice versa</li>
-            </ul>
-            <div>
-              <h4>Least important features:</h4>
-            <ul>
-              <li>Saving content you find on the web</li>
-              <li>Creating original content</li>
-              <li>Ability to connect with other for real-time collaboration on notes and documents</li>
-              <li>Ability to download for offline usage</li>
-            </ul>
-            ---->
 <div class="what-discovered">
               <h3>What I Discovered</h3>
               <p>The data that I gathered gave me incredible insight, namely that there are a few features that users find most important in their cloud storage app and there are gaps in the cloud market for these features.  Users wanted the ability to share content and information easily with others, the ability to upload files (Images, pdf, video) from their mobile device, share a single item or a folder with someone else and vice versa and download items for offline usage. From the data that I gathered in my survey I could already see the beginning of a new organization-based cloud storage platform that would meet users’ needs personally and professionally.</p>
               <a href="https://docs.google.com/forms/d/1SORurpmiuIs9jvy8HSsR3LR4yZ-pQsAmSSX0du2ftWw/edit#responses">View Full Survey Results</a>
           </div>
-
           </div>
         </div>
         </div>
@@ -284,17 +255,14 @@
 						</div>
 
 						<div class="profile__body">
-							<h6>Motivation</h6>
+							<h6><b>Motivation</b></h6>
 
 							<p>Family comes first for Robert and he always ensures he is there for his family when they need him the most. It is important that Robert can access his work documents whenever he needs them, and can communicate and send documents easil to colleagues on the go, from any device. An avid photographer on the side, he needs a safe place to keep all of his photo memories of his kids and a place where he can share photos with friends and family.</p>
-
-							<h6>Frustration</h6>
+            </br>
+							<h6><b>Frustration</b></h6>
 
 							<p>Not enough storage for all of his documents and photos</p>
 
-							<h6>Biography</h6>
-
-							<p>Robert is a VP of a fortune 500 company and is always on top of his game. Robert enjoys more flexible hours which is great for his growing family. With his wife working long hours and young children, Robert wants to be around to watch his kids grow up.</p>
 						</div>
 
 						<blockquote class="profile__foot">
@@ -315,17 +283,14 @@
 						</div>
 
 						<div class="profile__body">
-							<h6>Motivation</h6>
+							<h6><b>Motivation</b></h6>
 
 							<p>Melanie is a hardworking student who is determined to be a great lawyer. She uses her tablet, smartphone and Macbook interchangably to work on all of her projects for both work and school. She has all of her personal information on these devices as well and wants to ensure her privacy and keep her personal content separate from work. She is always striving to be more organized.</p>
-
-							<h6>Frustration</h6>
+            </br>
+							<h6><b>Frustration</b></h6>
 
 							<p>Have a secure, central location for all of her assignments.</p>
 
-							<h6>Biography</h6>
-
-							<p>When Melanie isn't headed to class or studying for her next big test, she is interning unpaid at the local pro-bono office. </p>
 						</div>
 
 						<blockquote class="profile__foot">
@@ -345,17 +310,14 @@
 						</div>
 
 						<div class="profile__body">
-							<h6>Motivation</h6>
+							<h6><b>Motivation</b></h6>
 
 							<p>Alison is always on the go, traveling from place to place as the head of Human Resources for her company. She doesn't have time to spend hours organizing her files or sharing permissions with her staff, just to change everything again when she goes to a new office location with new employees. She has no interest in mixing work and play.</p>
-
-							<h6>Frustration</h6>
+            </br>
+							<h6><b>Frustration</b></h6>
 
 							<p>There are too many choices for cloud services, I can't choose one.</p>
 
-							<h6>Biography</h6>
-
-							<p>Alison is great with people, which is why she is the president of her neighborhood community service chapter and a career in Human Resources was a no-brainer for her. She sometimes struggles to put aside time for herself.</p>
 						</div>
 
 						<blockquote class="profile__foot">
@@ -369,54 +331,49 @@
        <div class="competitive-analysis">
       <img src="images/competitive-icon.png" alt="Competitive Icon">
         <h3>Competitive Analysis</h3>
-          <p>Given the number of existing products on the market, I developed a SWOT analysis of Google Drive, Dropbox and Pinterest to determine where to focus my efforts.</p>
+          <h6>Given the number of existing products on the market, I developed a SWOT analysis of Google Drive, Dropbox and Pinterest to determine where to focus my efforts.</h6>
 
-      <!--      <img class="google" src="images/google-drive.png" alt="Google Drive">
-                <p>I knew I definitely wanted to analyze Google Drive since it was very favorably ranked in my user survey, and it was most favored when it came to ease of use. Google Drive is a very intuitive platform but fails in a few areas. It appeals primarily to Google users, as you need to have a Google account in order to use it. It also fails to appeal and integrate with Apple devices and with Apple users, and it doesn’t run on Linux whereas Dropbox does.</p>
-            <img class="dropbox" src="images/dropbox.png" alt="Dropbox">
-                <p>Dropbox has a lot of appeal in it’s brand and it’s business brand (Dropbox for Business) and is known for being fast and secure. Opportunities lie in it being purely a file storage service and nothing more, it’s very straight forward. It also is expensive and the market is saturated with competitors, and Dropbox does little to set itself apart. </p>
-            <img class="pinterest" src="images/pinterest.png" alt="Pinterest">
-                <p>Pinterest was an interesting analysis because it doesn’t quite fit the mold of a cloud platform, but it also doesn’t not fit the mold. There are aspects to Pinterest that are very appealing to users, specifically the design and intuitiveness of use. On the other hand there are limitations in capability and they have a limited audience since it appeals mainly to women. I used Pinterest as a model for the dashboard for Den, since users seem to like the ease of visual organization in the platform.</p>
-          </div> -->
 
-<div class="section__body_comp">
-<div class="profiles profiles--three">
-<div class="profile">
-  <div class="profile__head">
-      <div class="profile__avatar_comp">
-            <img class="google" src="images/google-drive.png" alt="Google Drive">
-          </div>
-        </div>
+            <div class="section__body">
+            <div class="profiles profiles--three">
+          <div class="profile">
+          				<div class="profile__avatar">
+          							<img class="google" src="images/google-drive.png" alt="Google Drive">
+          						</div>
 
-          <div class="profile__body">
-          <p>I knew I definitely wanted to analyze Google Drive since it was very favorably ranked in my user survey, and it was most favored when it came to ease of use. Google Drive is a very intuitive platform but fails in a few areas. It appeals primarily to Google users, as you need to have a Google account in order to use it. It also fails to appeal and integrate with Apple devices and with Apple users, and it doesn’t run on Linux whereas Dropbox does.</p>
-          </div>
-        </div>
+          						<div class="profile__body">
 
-        <div class="profile">
-          <div class="profile__avatar_comp">
-            <img class="dropbox" src="images/dropbox.png" alt="Dropbox">
-          </div>
+                        <p>I knew I definitely wanted to analyze Google Drive since it was very favorably ranked in my user survey, and it was most favored when it came to ease of use. Google Drive is a very intuitive platform but fails in a few areas. It appeals primarily to Google users, as you need to have a Google account in order to use it. It also fails to appeal and integrate with Apple devices and with Apple users, and it doesn’t run on Linux whereas Dropbox does.</p>
 
-          <div class="profile__body">
-          <p>Dropbox has a lot of appeal in it’s brand and it’s business brand (Dropbox for Business) and is known for being fast and secure. Opportunities lie in it being purely a file storage service and nothing more, it’s very straight forward. It also is expensive and the market is saturated with competitors, and Dropbox does little to set itself apart. </p>
-          </div>
-        </div>
+          						</div>
 
-        <div class="profile">
-          <div class="profile__avatar_comp">
-            <img class="pinterest" src="images/pinterest.png" alt="Pinterest">
-          </div>
+          					</div>
 
-          <div class="profile__body">
-          <p>Pinterest was an interesting analysis because it doesn’t quite fit the mold of a cloud platform, but it also doesn’t not fit the mold. There are aspects to Pinterest that are very appealing to users, specifically the design and intuitiveness of use. On the other hand there are limitations in capability and they have a limited audience since it appeals mainly to women. I used Pinterest as a model for the dashboard for Den, since users seem to like the ease of visual organization in the platform.</p>
-          </div>
-        </div>
+          					<div class="profile">
+          						<div class="profile__avatar">
+          							<img class="pinterest" src="images/pinterest.png" alt="Pinterest">
+          						</div>
 
-        </div>
-      </div>
-    </div>
+          						<div class="profile__body">
+                        <p>Pinterest was an interesting analysis because it doesn’t quite fit the mold of a cloud platform, but it also doesn’t not fit the mold. There are aspects to Pinterest that are very appealing to users, specifically the design and intuitiveness of use. On the other hand there are limitations in capability and they have a limited audience since it appeals mainly to women. I used Pinterest as a model for the dashboard for Den, since users seem to like the ease of visual organization in the platform.</p>
 
+          						</div>
+
+          					</div>
+
+          					<div class="profile">
+          						<div class="profile__avatar">
+          							<img class="dropbox" src="images/dropbox.png" alt="Dropbox">
+          						</div>
+
+          						<div class="profile__body">
+                        <p>Dropbox has a lot of appeal in it’s brand and it’s business brand (Dropbox for Business) and is known for being fast and secure. Opportunities lie in it being purely a file storage service and nothing more, it’s very straight forward. It also is expensive and the market is saturated with competitors, and Dropbox does little to set itself apart.</p>
+
+          						</div>
+
+          					</div>
+          				</div>
+          			</div>
 
 <!--User Stories-->
          <div class="user-stories">
@@ -503,8 +460,34 @@
     <img src="images/paper-plane-icon.png" alt="HiFi Mockups Icon ">
     <h3>High Fidelity Prototype</h3>
       <p>I gathered all of my research and ideas and went to work creating Den’s first high-fidelity prototype in Sketch. This was the part when I really got to take all of the personality and capabilities that I wanted Den to have and bring it all to life. I created enough for Den’s MVP, which would include a landing page, a sign up page, a log in page, the dashboard, account settings and storage plan page. Also, in order to give the client an idea what the Den app would look like on mobile, I created a landing page, dashboard and navigation screen on mobile. Once this was complete, I went back to the client to get approval to move forward with more user testing. </p>
+  </div>
 
-<!--Slick-->
+<div class="iterations">
+<div>
+  <img class="iteration-image" src="images/welcome-v1.png" alt="First slide">
+  <img class="it-next-arrow" src="images/denorange-arrow.png" alt="arrow">
+  <img class="iteration-image" src="images/welcome-v2.png" alt="Second slide">
+</div>
+<div>
+  <img class="iteration-image" src="images/info-v1.png" alt="Third slide">
+  <img class="it-next-arrow" src="images/denorange-arrow.png" alt="arrow">
+  <img class="iteration-image" src="images/info-v2.png" alt="Fourth slide">
+</div>
+<div>
+  <img class="iteration-image"  src="images/testimonial-v1.png" alt="Fifth slide">
+  <img class="it-next-arrow" src="images/denorange-arrow.png" alt="arrow">
+  <img class="iteration-image"  src="images/testimonial-v2.png" alt="Sixth slide">
+</div>
+<div>
+  <img class="iteration-image"  src="images/pricing-v1.png" alt="Seveth slide">
+  <img class="it-next-arrow" src="images/denorange-arrow.png" alt="arrow">
+  <img class="iteration-image" src="images/pricing-v2.png" alt="Eighth slide">
+</div>
+</div>
+
+
+
+<!--Slick-
 
       <div class="responsive">
         <div><img class="slide" src="images/welcome-v1.png" alt="First slide"></div>
@@ -516,6 +499,7 @@
         <div><img class="slide" src="images/pricing-v1.png" alt="Seveth slide"></div>
         <div><img class="slide" src="images/pricing-v2.png" alt="Eighth slide"></div>
       </div>
+    -->
 
 <!--Bootstrap Carousel that works-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -570,7 +554,6 @@
 
 <!--more testing-->
 
-    </div>
     <div class="more-testing">
       <h3>More Testing and Finishing Touches</h3>
       <p>I loaded all of my mockups into InVision so that I could perform another series of tests with potential users to ensure that each revision to the design was done to improve usability. I also received feedback from key stakeholders regarding the layout to improve the flow and ensure all content was easily readable as well as accessible to all types of potential users. Final revisions were made once all of the concerns my users brought up were addressed, and the final product on Den was born. </p>
@@ -587,25 +570,24 @@
           <a href="index.html" class="arrow"><img src="images/denorange-arrow.png"></a>
         </div>
       </div>
-    </div>
 
        <!--footer-->
-    <footer>
-        <div class="footer-section">
-            <a href="project.html" class="wantmore-link" data-aos="fade-up">Want More? Next Case Study</a>
+<footer class="footer">
+  <div>
+      <h5 href="project.html" data-aos="fade-up">Want More? Next Case Study</h5>
             <ul>
-              <li><a href="bio.html" data-aos="fade-up">About Me</a></li>
-              <li><a href="mailto:carlywebb@gmail.com" data-aos="fade-up">Let's Chat!</a></li>
-              <li><a href="resume.html" data-aos="fade-up">Resume</a></li>
+              <li><a href="bio.html">About Me</a></li>
+              <li><a href="mailto:carlywebb@gmail.com">Let's Chat!</a></li>
+              <li><a href="resume.html">Resume</a></li>
             </ul>
             <ul>
               <li><a href="https://github.com/carlywebb/"><img src="images/github-icon.png"></a></li>
               <li><a href="https://www.linkedin.com/in/carly-webb-ux/"><img src="images/linkedin-icon.png"></a></li>
               <li><a href="mailto:carlywebb@gmail.com"><img src="images/gmail-icon.png"></a></li>
             </ul>
-                  <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
-            </div>
+              <p>&copy; 2018 Carly Webb | Designed &amp; developed by Carly Webb</p>
           </div>
+    </footer>
 
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -632,59 +614,10 @@
   });
 </script>
 
-<!--Slick-->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script>
-$(document).ready(function(){
-  $('.responsive').slick({
-    setting-name: setting-value
-  });
-});
-</script>
-
-<script>
-      $('.responsive').slick({
-        dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
-        ]
-      });
-    </script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
  <script src="cloud-charts.js"></script>
   <script src="util.js"></script>
+  <script src="functions.js"></script>
 
   </body>
 </html>
