@@ -137,6 +137,7 @@ ul {
 
 .logo {
   width: 100%;
+  display:inline;
 }
 
 .links {
@@ -215,11 +216,12 @@ ul {
   }
 
   .logo {
-    display:none;
+    display:none!important;
   }
 
-  body {
-    background-image: url("images/logo-mobile.png")
+.body {
+    background-image: url("images/logo-mobile.png");
+    background-repeat: no-repeat;
   }
 
 }
