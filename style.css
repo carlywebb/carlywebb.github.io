@@ -533,7 +533,14 @@ margin-right:-30rem;
 .footer ul{
   display:inline-block;
   padding-top:1rem;
+  font-size:1.8rem;
 }
+
+.footer ul > li {
+    padding-top: 2rem;
+    display: inline-block;
+    margin: 0 10px !important;
+  }
 }
 
 /* ------------------------------------------------
