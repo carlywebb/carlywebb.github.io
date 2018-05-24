@@ -213,6 +213,15 @@ ul {
   .fa {
     display: none !important;
   }
+
+  .logo {
+    display:none;
+  }
+
+  body {
+    background-image: url("images/logo-mobile.png")
+  }
+
 }
 
 .visible {
@@ -349,11 +358,13 @@ h1.den-title{
   .den-shortdesc {
     float:inherit;
     display:inline-block;
-    width:80%;
+    width:80% !important;
   }
+
   .den-title{
     font-family:nunito;
     padding-top:5rem;
+    padding-right: 70px;
     background-color: #FCF5ED;
   }
 
@@ -376,7 +387,7 @@ align-items: center;
     float:inherit;
     align-items: center;
     width:100%;
-    padding-top:10rem;
+    padding-top:5rem;
     padding-bottom: 10rem;
   }
 }
