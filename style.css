@@ -167,7 +167,7 @@ ul {
   float: right;
 }
 
-@media all and (min-width: 32rem) {
+@media all and (min-width: 767px) {
 
   nav {
     width: 100%;
@@ -212,10 +212,6 @@ ul {
 
   .fa {
     display: none !important;
-  }
-
-  .logo {
-    display:none!important;
   }
 
 .body {
@@ -577,6 +573,19 @@ margin-right:-30rem;
   padding-top: 1%;
   margin-right: 24px;
   margin-left:24px;
+}
+
+#navbar{
+  overflow:hidden;
+  background:#FCF5ED;
+}
+
+.sticky{
+  align-items: center;
+  position: fixed;
+  top:0rem;
+  width: 100%;
+  z-index:1020;
 }
 
 .navprojectlinks li {

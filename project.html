@@ -38,16 +38,14 @@
             <li class="right"><a href="https://drive.google.com/file/d/1oiac0NDbJbddOzg8rl1uQ3l7BvHomo-N/view?usp=sharing">Resume</a></li>
             <li class="right"><a href="mailto:carlywebb@gmail.com">Contact</a></li>
           </ul>
-
           <div id="trigger" class="mobile">
             <span style="font-size:3rem" class="fa fa-align-justify"></span>
           </div>
-
         </nav>
       </header>
-
 <!--centered project links-->
-<section class="navprojectlinks">
+<div id="navbar">
+  <nav class="navbar-expand-lg sticky-top" role="navigation">
 <ul class="nav justify-content-center">
   <li class="nav-item"><a class="nav-link" href="#overview">Overview</a>
   </li>
@@ -58,7 +56,8 @@
   <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a>
   </li>
 </ul>
-<section>
+</nav>
+</div>
 
 <!--Den intro page-->
 <div class="den-background">
@@ -75,34 +74,28 @@
     </div>
 
 <!--Roles, Deliverables, Tools--->
-
     <div class="section__body">
     <div class="profiles profiles--three">
   <div class="profile">
           <div class="profile__avatar__main">
                 <img src="images/chair-icon.png" alt="" class="chair-icon">
               </div>
-
               <div class="profile__head__main">
                 <h5 class="profile__name">Role</h5>
               </div>
-
               <div class="profile__body__main">
                 <h6>UX Designer</h6>
                 <h6>Visual Designer</h6>
                 <h6>Brand & Identity</h6>
               </div>
             </div>
-
             <div class="profile">
               <div class="profile__avatar__main">
                 <img src="images/phone-icon.png" alt="" class="phone-icon">
               </div>
-
               <div class="profile__head__main">
                 <h5 class="profile__name">Deliverables</h5>
               </div>
-
               <div class="profile__body__main">
                 <h6>User Surveys & Personas</h6>
                 <h6>SWOT Competitive Analysis</h6>
@@ -112,8 +105,6 @@
                 <h6>HiFi Prototype</h6>
               </div>
             </div>
-
-
             <div class="profile">
               <div class="profile__avatar__main">
                 <img src="images/paint-icon.png" alt="" class="paint-icon">
@@ -121,18 +112,15 @@
               <div class="profile__head__main">
                 <h5 class="profile__name">Tools</h5>
               </div>
-
               <div class="profile__body__main">
                 <h6>Sketch</h6>
                 <h6>InVision</h6>
                 <h6>Balsamiq</h6>
                 <h6>Adobe Illustrator</h6>
               </div>
-
             </div>
           </div>
         </div>
-
 <!--Overview-->
 <!--bookmark-->
    <div class="overview">
@@ -487,7 +475,6 @@
 
 
 <!--Slick-
-
       <div class="responsive">
         <div><img class="slide" src="images/welcome-v1.png" alt="First slide"></div>
         <div><img class="slide" src="images/welcome-v2.png" alt="Second slide"></div>
@@ -603,7 +590,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-118454282-1');
 </script>
  <!-- AOS -->
@@ -626,6 +612,7 @@ $(".mobile").click(function () {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
  <script src="cloud-charts.js"></script>
   <script src="util.js"></script>
+  <script src="stickySubnav.js"></script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
