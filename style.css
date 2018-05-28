@@ -857,8 +857,9 @@ margin-left:15rem;
 font-size:1.8rem;
 line-height:.5 !important;
 padding-bottom:2rem;
-display:block!important;
 list-style-image: url("./images/oval-bullet.png")!important;
+list-style-position: inside;
+display: list-item;
 }
 
     .survey__charts-1 {
@@ -984,6 +985,12 @@ list-style-image: url("./images/oval-bullet.png")!important;
   padding-top:2rem;
   padding-bottom: 3rem;
   text-align: center;
+}
+
+@media (max width 767px) {
+  .user-personas p {
+    text-align: left!important;
+  }
 }
 
 
