@@ -173,7 +173,7 @@ ul {
   float: right;
 }
 
-@media all and (min-width: 767px) {
+@media (min-width: 767px) {
 
   nav {
     width: 100%;
@@ -584,7 +584,6 @@ padding-bottom:5rem;
 }
 
 .den-hero p {
-  padding-top:3%;
   text-align: center;
 }
 
@@ -592,6 +591,7 @@ padding-bottom:5rem;
   color:  #ED7940;
   margin:auto;
   font-weight:500;
+  line-height: 4;
 }
 
 .den-hero a:hover {
@@ -866,38 +866,63 @@ display: list-item;
       margin: 0 auto;
       position: relative;
       width: 50vw;
-      padding:5rem;
       }
+    .survey__charts-1 h3{
+      padding:5rem 0rem 2rem 0rem;
+      border:none;
+      text-align: left;
+      width:100%;
+    }
+
       @media only screen and (max-width: 58em) {
         .survey__charts-1 {
           width: 80vw; } }
+
       @media only screen and (max-width: 38em) {
         .survey__charts-1 {
           width: 90vw; } }
-    .survey__charts-2 {
-      margin: 0 auto;
-      position: relative;
-      width: 70vw;
-      padding:5rem;
-      }
+
+
+          .survey__charts-2 {
+            margin: 0 auto;
+            position: relative;
+            width: 50vw;
+            }
+          .survey__charts-2 h3{
+            padding:10rem 0rem 2rem 0rem;
+            border:none;
+            text-align: left;
+            width:80%;
+          }
+
       @media (max-width: 530px) {
         .survey__charts-2 {
           display:none; } }
+
       @media only screen and (max-width: 58em) {
         .survey__charts-2 {
           width: 80vw; } }
+
       @media only screen and (max-width: 38em) {
         .survey__charts-2 {
           width: 90vw; } }
-    .survey__charts-3 {
-      margin: 0 auto;
-      position: relative;
-      width: 50vw;
-      padding:5rem;
-      }
+
+          .survey__charts-3 {
+            margin: 0 auto;
+            position: relative;
+            width: 50vw;
+            }
+          .survey__charts-3 h3{
+            padding:7rem 0rem 2rem 0rem;
+            border:none;
+            text-align: left;
+            width:80%;
+          }
+
       @media only screen and (max-width: 58em) {
         .survey__charts-3 {
           width: 80vw; } }
+
       @media only screen and (max-width: 38em) {
         .survey__charts-3 {
           width: 90vw; } }
@@ -1319,6 +1344,7 @@ margin:5px;
   }
   .next-arrow {
     transform: rotate(90deg);
+    padding:0px!important;
   }
 }
 
@@ -1605,6 +1631,7 @@ margin:5px;
   color:  #ED7940;
   font-weight:600;
   text-decoration: none;
+  line-height: 4;
 }
 
 .key-learnings ul>li {

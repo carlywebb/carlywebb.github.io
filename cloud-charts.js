@@ -5,7 +5,7 @@ var collaborate = document.getElementById("chart1").getContext('2d');
      type: 'doughnut',
      options: {
      title: {
-         display: true,
+         display: false,
          text: 'In which ways do you use cloud applications to collaborate?',
          fontFamily: 'Lato'
 
@@ -44,7 +44,7 @@ var collaborate = document.getElementById("chart1").getContext('2d');
      type: 'horizontalBar',
      options: {
      title: {
-         display: true,
+         display: false,
          text: 'Which app(s) have you used? (Select all that apply)',
          fontFamily: 'Lato'
 
@@ -87,7 +87,7 @@ var collaborate = document.getElementById("chart1").getContext('2d');
      type: 'doughnut',
      options: {
      title: {
-         display: true,
+         display: false,
          text: 'What is least important to you in a storage app?',
          fontFamily: 'Lato'
 
