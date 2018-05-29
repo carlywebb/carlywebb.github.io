@@ -1711,39 +1711,42 @@ margin:5px;
 
   /*media queries*/
 
-  /*mobiles*/
+  /*mobiles
 
-  @media (max-width:400px) {
-    .main-section p {text-align:center;margin:auto;}
-    .middle-section p {text-align:center;margin:auto;}
-    .bottom-section p {text-align:center;margin:auto;}
+  @media (max-width:450px) {
+    .main-section .middle-section .bottom-section p {
+      text-align:left!important;
+      margin:auto;
+    }
+
     .bio-photo {
-      width:90%;
+      width:90%!important;
   }
-  }
-
-    /*tablets*/
-
-    /*tablets*/
+  } */
 
   @media (max-width: 767px) {
-    .main-section p {text-align:center;margin:auto;}
+
+.bio-body h3 {
+  font-size: 2rem;
+}
+
+    .main-section p {
+      text-align:left;
+      margin:auto;
+    }
     .middle-section p {
-      text-align:center;
+      text-align:left;
       padding-top:3rem;
       width:95%;
       }
     .bottom-section p {
-      text-align:center;
+      text-align:left;
       margin:auto;
       padding-top:3rem;
       }
 
   .bio-photo {
     padding-top:5rem;
+    width:90%;
   }
   }
-
-.resume {
-  margin:auto;
-}
