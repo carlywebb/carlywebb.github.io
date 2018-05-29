@@ -1724,7 +1724,7 @@ margin:5px;
   }
   } */
 
-  @media (max-width: 767px) {
+@media (max-width: 450px) {
 
 .bio-body h3 {
   font-size: 2rem!important;
