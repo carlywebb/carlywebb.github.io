@@ -851,9 +851,12 @@ display:none;
   padding-bottom:5rem;
 }
 
+.user-research ul {
+  margin-left:34rem;
+}
+
 .user-research li {
 text-align:left;
-margin-left:15rem;
 font-size:1.8rem;
 line-height:.5 !important;
 padding-bottom:2rem;
@@ -865,7 +868,7 @@ display: list-item;
     .survey__charts-1 {
       margin: 0 auto;
       position: relative;
-      width: 50vw;
+      width: 40vw;
       }
     .survey__charts-1 h3{
       padding:5rem 0rem 2rem 0rem;
@@ -876,17 +879,25 @@ display: list-item;
 
       @media only screen and (max-width: 58em) {
         .survey__charts-1 {
-          width: 80vw; } }
+          width: 80vw; }
+          .user-research ul {
+            margin:auto;
+          }  
+        }
 
       @media only screen and (max-width: 38em) {
         .survey__charts-1 {
-          width: 90vw; } }
+          width: 90vw; }
+          .user-research ul {
+            margin:auto;
+          }
+        }
 
 
           .survey__charts-2 {
             margin: 0 auto;
             position: relative;
-            width: 50vw;
+            width: 40vw;
             }
           .survey__charts-2 h3{
             padding:10rem 0rem 2rem 0rem;
@@ -910,7 +921,7 @@ display: list-item;
           .survey__charts-3 {
             margin: 0 auto;
             position: relative;
-            width: 50vw;
+            width: 40vw;
             }
           .survey__charts-3 h3{
             padding:7rem 0rem 2rem 0rem;
