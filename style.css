@@ -1727,9 +1727,8 @@ margin:5px;
   @media (max-width: 767px) {
 
 .bio-body h3 {
-  font-size: 2rem;
+  font-size: 2rem!important;
 }
-
     .main-section p {
       text-align:left;
       margin:auto;
@@ -1747,6 +1746,6 @@ margin:5px;
 
   .bio-photo {
     padding-top:5rem;
-    width:90%;
+    width:90%!important;
   }
   }
