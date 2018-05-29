@@ -1657,11 +1657,6 @@ margin:5px;
   line-height:2.5;
   }
 
-  .main-section {
-    width:80%!important;
-    margin:auto;
-  }
-
   .main-section h3 {
       border-bottom-color:#22C3C9;
   }
@@ -1669,7 +1664,7 @@ margin:5px;
   .main-section p {
     padding-top:3rem;
     margin-left:2rem;
-    width:98%!important;
+    width:80%!important;
   }
 
   .middle-section p {
@@ -1680,6 +1675,8 @@ margin:5px;
 
   .bottom-section p {
     width:80%!important;
+    margin-left:16rem;
+    padding-top:1rem;
   }
 
   .bio-photo {
@@ -1697,32 +1694,12 @@ margin:5px;
     padding-top:3rem;
   }
 
-  .bottom-section p {
-    margin-left:16rem;
-    padding-top:1rem;
-  }
-
   .signature {
     padding-top:30px;
     padding-bottom:25px;
     margin:auto;
   }
 
-
-  /*media queries*/
-
-  /*mobiles
-
-  @media (max-width:450px) {
-    .main-section .middle-section .bottom-section p {
-      text-align:left!important;
-      margin:auto;
-    }
-
-    .bio-photo {
-      width:90%!important;
-  }
-  } */
 
 @media (max-width: 450px) {
 
@@ -1732,20 +1709,49 @@ margin:5px;
     .main-section p {
       text-align:left;
       margin:auto;
+      width:90%!important;
     }
     .middle-section p {
       text-align:left;
       padding-top:3rem;
-      width:95%;
+      width:90%;
       }
     .bottom-section p {
       text-align:left;
       margin:auto;
       padding-top:3rem;
+      width:90%!important;
       }
 
   .bio-photo {
     padding-top:5rem;
     width:90%!important;
   }
+
+  @media (max-width: 767px) {
+
+  .bio-body h3 {
+    font-size: 2rem!important;
+  }
+      .main-section p {
+        text-align:left;
+        margin:auto;
+        width:90%!important;
+      }
+      .middle-section p {
+        text-align:left;
+        padding-top:3rem;
+        width:90%;
+        }
+      .bottom-section p {
+        text-align:left;
+        margin:auto;
+        padding-top:3rem;
+        width:90%;
+        }
+
+    .bio-photo {
+      padding-top:5rem;
+      width:90%!important;
+    }
   }
