@@ -236,9 +236,10 @@ ul {
 
 div.mobile {
   z-index: 2;
-  position: fixed;
+  position: absolute;
   display: block;
   width: 100%;
+  text-decoration: none;
 }
 
 .navprojectlinks a:hover {
@@ -882,7 +883,7 @@ display: list-item;
           width: 80vw; }
           .user-research ul {
             margin:auto;
-          }  
+          }
         }
 
       @media only screen and (max-width: 38em) {
