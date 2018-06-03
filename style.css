@@ -773,13 +773,18 @@ padding-top:50px;
 
 @media (max-width:450px) {
 
+  .macbook-login{
+    width: 80%;
+  }
+
+  .pink-box {
+    min-height: 30rem!important;
+  }
+
   .solution {
     padding-top:50px !important;
   }
 
-  .macbook-login{
-display:none;
-  }
 .problem p {
   width: 100% !important;
 }
@@ -793,11 +798,11 @@ display:none;
 @media (max-width: 767px) {
 
   .macbook-login{
-display:none;
+    width: 80%;
   }
 
   .solution {
-   padding-top:400%;
+   padding-top:50px;
   }
 
   .problem p {
