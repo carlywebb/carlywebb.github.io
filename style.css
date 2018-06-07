@@ -147,6 +147,10 @@ ul {
   text-decoration: none;
 }
 
+.links a{
+Transition:all 0.25s linear;
+}
+
 .right a {
   color: #55595D;
   background-color: #FFF;
@@ -157,7 +161,7 @@ ul {
 }
 
 .right a:hover {
-  background-color: #B4F3E7;
+  background-color: #ACD6DA;
   color: #55595D;
 }
 
@@ -224,7 +228,7 @@ div.mobile {
   }
 
   .right a:hover {
-    background-color: #B4F3E7;
+    background-color: #ACD6DA;
     padding: 6rem 1rem 3rem 1rem;
     color: #55595D;
   }
@@ -307,7 +311,7 @@ padding-top:2rem
 ----------------------------------------------------*/
 
 .den {
-    background-color: #FCF5ED;
+    background-color: #EAEDEF;
     min-height:100%;
 }
 
@@ -360,7 +364,7 @@ h1.den-title{
     font-family:nunito;
     padding-top:5rem;
     padding-right: 70px;
-    background-color: #FCF5ED;
+    background-color: #EAEDEF;
   }
 
 .case-study-link{
@@ -497,6 +501,7 @@ margin-right:-30rem;
 .footer a {
   padding-top:50px;
   text-decoration: none;
+  font-family: raleway, sans-serif;
 }
 
 .footer a:hover {
@@ -516,10 +521,11 @@ margin-right:-30rem;
 
 .footer h4 {
   padding-top: 5rem;
+  font-family: raleway, sans-serif;
 }
 
 .footer ul{
-        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
 .footer ul > li {
@@ -529,10 +535,12 @@ margin-right:-30rem;
     }
 
 .footer p {
-      padding-top:2rem;
-      padding-bottom: 0.5rem;
-      font-size:1.7rem;
-      text-align:center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: #ACD6DA;
+  width: 100%!important;
     }
 
 @media (min-width:300px) and (max-width: 575px) {
@@ -564,7 +572,7 @@ margin-right:-30rem;
 }
 
 .den-hero {
-  background:#FCF5ED;
+  background:#EAEDEF;
   padding-top:10px;
   position: relative;
   min-height:100%;
@@ -609,7 +617,7 @@ padding-bottom:5rem;
   padding-top:3rem;
 }
 .den-background {
-    background-color: #FCF5ED;
+    background-color: #EAEDEF;
 }
 }
 
@@ -629,7 +637,7 @@ padding-bottom:5rem;
     padding-top:3rem;
   }
   .den-background {
-      background-color: #FCF5ED;
+      background-color: ##EAEDEF;
   }
 
 .den-hero p {
@@ -662,6 +670,11 @@ padding-bottom:5rem;
 
 .profile__avatar__main {
   padding-top: 3rem;
+  text-align: center;
+}
+
+.profile__avatar__main img {
+  width:100px;
 }
 
 
@@ -674,10 +687,7 @@ padding-bottom:5rem;
 }
 
 .overview{
-  background:#FCF5ED;
-  position: relative;
-  min-height:100%;
-  min-width:100%;
+  background:#EAEDEF;
 }
 
 .overview h3 {
@@ -687,10 +697,6 @@ padding-bottom:5rem;
 .overview p {
   padding-top:2rem;
   padding-bottom:5rem;
-  text-align: center;
-}
-
-.profile__avatar__main{
   text-align: center;
 }
 
@@ -812,7 +818,7 @@ padding-top:50px;
 ----------------------------------------------------*/
 
 .user-research {
-  background:#FCF5ED;
+  background:#EAEDEF
   padding-top:3rem;
   position: relative;
   min-height:100%;
@@ -847,7 +853,7 @@ display: list-item;
     .survey__charts-1 {
       margin: 0 auto;
       position: relative;
-      width: 40vw;
+      width: 30vw;
       }
     .survey__charts-1 h3{
       padding:5rem 0rem 2rem 0rem;
@@ -876,7 +882,7 @@ display: list-item;
           .survey__charts-2 {
             margin: 0 auto;
             position: relative;
-            width: 40vw;
+            width: 30vw;
             }
           .survey__charts-2 h3{
             padding:10rem 0rem 2rem 0rem;
@@ -900,7 +906,8 @@ display: list-item;
           .survey__charts-3 {
             margin: 0 auto;
             position: relative;
-            width: 40vw;
+            width: 30vw;
+            padding-bottom:5rem;
             }
           .survey__charts-3 h3{
             padding:7rem 0rem 2rem 0rem;
@@ -918,7 +925,7 @@ display: list-item;
           width: 90vw; } }
 
 .what-discovered {
-  background:#FCF5ED;
+  background:#EAEDEF;
   padding-top:3rem;
   position: relative;
   min-height:100%;
@@ -1252,7 +1259,7 @@ margin:5px;
 .user-stories {
   padding-top:30px;
   position: relative;
-  background:#FCF5ED;
+  background:#EAEDEF;
   min-height:800px;
 }
 
@@ -1358,7 +1365,7 @@ margin:5px;
 ----------------------------------------------------*/
 
 .brand-story {
-  background:#FCF5ED;
+  background:#EAEDEF;
   max-height:2400px;
   padding-top:50px;
   padding-bottom:50px;
@@ -1602,7 +1609,7 @@ margin:5px;
   ----------------------------------------------------*/
 
   .key-learnings {
-    background:#FCF5ED;
+    background:#EAEDEF;
     min-height:100%;
       padding-top:50px;
       padding-bottom:50px;
@@ -1637,9 +1644,12 @@ margin:5px;
   --------------------------Bio-----------
   ----------------------------------------------------*/
 
+.photo-hero {
+  background-color: #EAEDEF;
+}
+
   .bio-body {
   line-height:2.5;
-  padding-top:50px;
   padding-bottom:50px;
   margin:auto;
   }
@@ -1662,7 +1672,7 @@ opacity: 0.8;
   }
 
   .bio-footer {
-    background:#FCF5ED;
+    background:#EAEDEF;
   }
 
   .footer-section-bio p {
