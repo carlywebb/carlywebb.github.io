@@ -561,6 +561,11 @@ margin-right:-30rem;
 -------------------------- Case Study Hero-----------
 ----------------------------------------------------*/
 
+.navprojectlinks a {
+  font-size: 2.3rem;
+  font-family: raleway, sans-serif;
+}
+
 .den-background-image{
   background-image: url('images/den-project-background.png');
   width:100%;
@@ -637,7 +642,7 @@ padding-bottom:5rem;
     padding-top:3rem;
   }
   .den-background {
-      background-color: ##EAEDEF;
+      background-color: #EAEDEF;
   }
 
 .den-hero p {
@@ -864,7 +869,7 @@ display: list-item;
 
       @media only screen and (max-width: 58em) {
         .survey__charts-1 {
-          width: 80vw; }
+          width: 40vw; }
           .user-research ul {
             margin:auto;
           }
@@ -872,12 +877,11 @@ display: list-item;
 
       @media only screen and (max-width: 38em) {
         .survey__charts-1 {
-          width: 90vw; }
+          width: 60vw; }
           .user-research ul {
             margin:auto;
           }
         }
-
 
           .survey__charts-2 {
             margin: 0 auto;
@@ -897,11 +901,11 @@ display: list-item;
 
       @media only screen and (max-width: 58em) {
         .survey__charts-2 {
-          width: 80vw; } }
+          width: 40vw; } }
 
       @media only screen and (max-width: 38em) {
         .survey__charts-2 {
-          width: 90vw; } }
+          width: 60vw; } }
 
           .survey__charts-3 {
             margin: 0 auto;
@@ -918,11 +922,11 @@ display: list-item;
 
       @media only screen and (max-width: 58em) {
         .survey__charts-3 {
-          width: 80vw; } }
+          width: 40vw; } }
 
       @media only screen and (max-width: 38em) {
         .survey__charts-3 {
-          width: 90vw; } }
+          width: 60vw; } }
 
 .what-discovered {
   background:#EAEDEF;
@@ -1053,7 +1057,6 @@ left: 0;
 right:0;
 }
 
-
 .profile .profile__head p {
 font-size: 1.6rem;
 font-family:lato,sans-serif;
@@ -1090,7 +1093,6 @@ font-family:lato,sans-serif;
 .profile {
   padding:0 5px!important;
 }
-
 }
 
 /* ------------------------------------------------------------ *\
@@ -1525,7 +1527,6 @@ margin:5px;
   .next-arrow1 {
     transform: rotate(90deg);
     padding:1rem!important;
-    width: 5rem!important;
   }
   .flow {
     width:90%!important;
@@ -1535,7 +1536,6 @@ margin:5px;
 @media (max-width:1438px) {
   .next-arrow1 {
     padding:0!important;
-    width:2rem;
     margin:auto;
   }
 
