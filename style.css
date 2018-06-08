@@ -187,7 +187,7 @@ div.mobile {
 }
 
 .navprojectlinks a:hover {
-  color: #B4F3E7;
+  color: #ACD6DA;
 }
 
 @media (min-width: 767px) {
@@ -292,7 +292,7 @@ padding-bottom:8rem;
 
 @media (min-width:300px) and (max-width: 575px) {
 .jumbotron{
-min-height:100%;
+min-height:50rem;
 }
 
 .display-4 {
@@ -373,7 +373,7 @@ align-items: center;
   }
 
   .case-study-link a:hover {
-   color: #22C3C9;
+   color: #ACD6DA;
    text-decoration: none;
  }
 
@@ -415,7 +415,7 @@ text-decoration: none;
 }
 
 .case-study-link a:hover {
- color: #22C3C9;
+ color: #ACD6DA;
  text-decoration: none;
 }
 
@@ -448,7 +448,7 @@ text-decoration: none;
 }
 
 .case-study-link a:hover {
- color: #22C3C9;
+ color: #ACD6DA;
  text-decoration: none;
 }
 .mq-macbook{
@@ -482,7 +482,7 @@ margin-right:-30rem;
   text-decoration: none;
   }
   .case-study-link a:hover {
-   color: #22C3C9;
+   color: #ACD6DA;
    text-decoration: none;
   }
 
@@ -505,7 +505,7 @@ margin-right:-30rem;
 }
 
 .footer a:hover {
- color: #22C3C9;
+ color: #ACD6DA;
  text-decoration: none;
 }
 
@@ -600,7 +600,7 @@ padding-bottom:5rem;
 }
 
 .den-hero a:hover {
-  color: #22C3C9;
+  color: #ACD6DA;
   text-decoration: none;
 }
 
@@ -1655,7 +1655,7 @@ margin:5px;
   }
 
   .bio-body h3 {
-      border-bottom-color:#22C3C9;
+      border-bottom-color:#ACD6DA;
   }
 
   .bio-body p {
