@@ -1520,6 +1520,11 @@ margin:5px;
   width:auto;
 }
 
+.flow {
+  width:30%;
+  margin:auto;
+}
+
 @media (max-width:517px) {
   .wireframes-testing h4 {
     font-size:20px;
@@ -1533,14 +1538,15 @@ margin:5px;
   }
 }
 
+@media (min-width:638px and max-width:752px;) {
+  .next-arrow1 {
+    display:none;
+  }
+}
+
 @media (max-width:1438px) {
   .next-arrow1 {
-    padding:0!important;
-    margin:auto;
-  }
-
-  .flow {
-    width:30%;
+    padding:0;
     margin:auto;
   }
 }
