@@ -371,9 +371,13 @@ padding-top:2rem
   .right-case {
     float: right;
     width: 50%;
-
   }
+}
 
+@media (min-width: 575px and max-width: 767px) {
+  .den-title{
+    padding-top: 3rem;
+  }
 }
 
 /* ------------------------------------------------
