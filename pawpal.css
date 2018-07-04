@@ -207,7 +207,7 @@ div.mobile {
 }
 
 .navprojectlinks a:hover {
-  color: #ACD6DA;
+  color: #9013FE;
 }
 
 @media (min-width: 767px) {
@@ -326,79 +326,86 @@ padding-top:2rem
 }
   }
 
-/* ------------------------------------------------
--------------------------- Case Study -----------
-------------------------------*/
+  /* ------------------------------------------------
+  -------------------------- Case Study -----------
+  ------------------------------*/
 
-.den-title{
-  font-family:nunito;
-}
+  .den-title{
+    font-family:nunito;
+  }
 
-.den-shortdesc {
-  font-family: Lato, sans-serif;
-  font-size: 2rem;
-  font-weight:200;
-  margin:none;
-  text-align: right;
-  line-height: 1.5;
-}
+  .den-shortdesc {
+    font-family: Lato, sans-serif;
+    font-size: 2rem;
+    font-weight:200;
+    margin:none;
+    text-align: right;
+    line-height: 1.5;
+  }
 
-.horizontal-arrow {
-  padding-left:1rem;
-}
+  .horizontal-arrow {
+    padding-left:1rem;
+  }
 
-.project-link {
-   font-size:2.5rem;
-}
+  .project-link {
+     font-size:2.5rem;
+  }
 
-.full { width: 100%; }
+  .full { width: 100%; }
 
-.case-study-link a:hover {
-  color: #ACD6DA;
-  text-decoration: none;
-}
+  .case-study-link {
+    font-family: Raleway, sans-serif;
+    font-size: 3rem;
+  }
 
-.case-study-link {
-  font-family: Raleway, sans-serif;
-  font-size: 3rem;
-}
+  .homecasestudy {
+    background: #ebedef;
+  }
 
-.homecasestudy {
-  background: #ebedef;
-}
-
-.project-contain {
-  margin: 0 auto;
-  padding: 8rem 0;
-  width: 90%;
-}
-
-.left-case {
-  margin-bottom: 30px;
-}
-
-@media all and (min-width: 768px) {
   .project-contain {
-    width: 75%;
-    overflow: hidden;
+    margin: 0 auto;
+    padding: 8rem 0;
+    width: 90%;
   }
 
   .left-case {
-    width: 45%;
-    float: left;
-    text-align: right;
+    margin-bottom: 30px;
   }
-  .right-case {
-    float: right;
-    width: 50%;
-  }
-}
 
-@media (min-width: 575px and max-width: 767px) {
-  .den-title{
-    padding-top: 3rem;
+  .paw-caseimage {
+  width:75%;
   }
-}
+
+  .pawhomecasestudy {
+    background-color: #E9F4F9;
+  }
+
+  .pawcasemockup {
+    width:100%;
+  }
+
+  @media all and (min-width: 768px) {
+    .project-contain {
+      width: 75%;
+      overflow: hidden;
+    }
+
+    .left-case {
+      width: 45%;
+      float: left;
+      text-align: right;
+    }
+    .right-case {
+      float: right;
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 575px and max-width: 767px) {
+    .den-title{
+      padding-top: 3rem;
+    }
+  }
 
 /* ------------------------------------------------
 -------------------------- Footer -----------
@@ -483,7 +490,7 @@ padding-top:2rem
 }
 
 .den-hero {
-  background:#EAEDEF;
+  background:#FFFFFF;
   padding-top:10px;
   position: relative;
   min-height:100%;
