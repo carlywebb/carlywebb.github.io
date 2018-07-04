@@ -95,6 +95,41 @@ ul li, ol li {
 }
 
 /* ------------------------------------------------
+-------------------------- Buttons -----------
+----------------------------------------------------*/
+.button1 {
+  color: #FFFFFF;
+  background: #F28E8E;
+  border-color: #FFFFFF;
+  font-weight: 200;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  color:#FFFFFF;
+  background-color: #F0B67F;
+  text-decoration: none;
+}
+
+.button2 {
+  color: #FFFFFF;
+  background: #ED7940;
+  border-color: #FFFFFF;
+  font-weight: 200;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button2:hover {
+  color:#FFFFFF;
+  background-color: #0C7DC5;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------
 -------------------------- Nav -----------
 ----------------------------------------------------*/
 
@@ -187,7 +222,7 @@ div.mobile {
 }
 
 .navprojectlinks a:hover {
-  color: #ACD6DA;
+  color: #ED7940;
 }
 
 @media (min-width: 767px) {
@@ -256,7 +291,7 @@ div.mobile {
 font-family: raleway, sans-serif;
 font-size: 5rem;
 font-weight:400;
-padding-top:7rem;
+padding-top:12rem;
 margin: 0 auto;
 color: #55595D;
 }
@@ -332,11 +367,6 @@ padding-top:2rem
 }
 
 .full { width: 100%; }
-
-.case-study-link a:hover {
-  color: #ACD6DA;
-  text-decoration: none;
-}
 
 .case-study-link {
   font-family: Raleway, sans-serif;
@@ -452,6 +482,10 @@ padding-top:2rem
   font-family: raleway, sans-serif;
 }
 
+.nav-link a:hover {
+  color: #ED7940;
+}
+
 .den-background-image{
   background-image: url('images/den-project-background.png');
   width:100%;
@@ -463,7 +497,7 @@ padding-top:2rem
 }
 
 .den-hero {
-  background:#EAEDEF;
+  background:#FFFFFF;
   padding-top:10px;
   position: relative;
   min-height:100%;
@@ -479,15 +513,9 @@ padding-bottom:5rem;
 }
 
 .den-hero a {
-  color:  #ED7940;
   margin:auto;
   font-weight:500;
   line-height: 4;
-}
-
-.den-hero a:hover {
-  color: #ACD6DA;
-  text-decoration: none;
 }
 
 /*media queries*/
@@ -507,9 +535,6 @@ padding-bottom:5rem;
   width:150px;
   padding-top:3rem;
 }
-.den-background {
-    background-color: #EAEDEF;
-}
 }
 
   /*tablets*/
@@ -526,9 +551,6 @@ padding-bottom:5rem;
     margin:auto;
     width:150px;
     padding-top:3rem;
-  }
-  .den-background {
-      background-color: #EAEDEF;
   }
 
 .den-hero p {
@@ -830,7 +852,6 @@ display: list-item;
 }
 
 .what-discovered a {
-  color:  #ED7940;
   font-weight:600;
   font-size:2rem;
   margin:auto;
@@ -1160,7 +1181,6 @@ margin:5px;
 }
 
 .user-stories a {
-  color:  #ED7940;
   font-weight:600;
   line-height:150px;
   font-size: 2rem;
@@ -1516,7 +1536,6 @@ margin:5px;
   }
 
 .key-learnings a {
-  color:  #ED7940;
   font-weight:600;
   text-decoration: none;
   line-height: 4;
