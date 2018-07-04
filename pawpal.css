@@ -95,6 +95,26 @@ ul li, ol li {
 }
 
 /* ------------------------------------------------
+-------------------------- Buttons-----------
+----------------------------------------------------*/
+
+.button3 {
+  color: #FFFFFF;
+  background: #9013FE;
+  border-color: #FFFFFF;
+  font-weight: 200;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button3:hover {
+  color:#FFFFFF;
+  background-color: #5BBBE4;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------
 -------------------------- Nav -----------
 ----------------------------------------------------*/
 
@@ -480,14 +500,12 @@ width:60%;
 }
 
 .den-hero a {
-  color:  #8A27D1;
   margin:auto;
   font-weight:500;
   line-height: 4;
 }
 
 .den-hero a:hover {
-  color: #337EC7;
   text-decoration: none;
 }
 
@@ -819,7 +837,6 @@ display: list-item;
 }
 
 .what-discovered a {
-  color:  #8A27D1;
   font-weight:600;
   font-size:2rem;
   margin:auto;
@@ -1149,7 +1166,6 @@ margin:5px;
 }
 
 .user-stories a {
-  color:  #8A27D1;
   font-weight:600;
   line-height:150px;
   font-size: 2rem;
@@ -1505,7 +1521,6 @@ margin:5px;
   }
 
 .key-learnings a {
-  color:  #8A27D1;
   font-weight:600;
   text-decoration: none;
   line-height: 4;
@@ -1520,79 +1535,3 @@ margin:5px;
 .key-learnings ul {
   padding-top:20px;
 }
-
-  /* ------------------------------------------------
-  --------------------------Bio-----------
-  ----------------------------------------------------*/
-
-.photo-hero {
-  background-color: #EAEDEF;
-}
-
-  .bio-body {
-  line-height:2.5;
-  padding-bottom:50px;
-  margin:auto;
-  }
-
-  .bio-body h3 {
-      border-bottom-color:#ACD6DA;
-  }
-
-  .bio-body p {
-    padding-top:20px;
-    text-align: justify;
-    margin: 0;
-  }
-
-  .bio-photo {
-    background-position: center;
-background-size: cover;
-background-attachment: fixed;
-opacity: 0.8;
-  }
-
-  .bio-footer {
-    background:#EAEDEF;
-  }
-
-  .footer-section-bio p {
-    padding-bottom:1%;
-    padding-top:3rem;
-  }
-
-  .signature {
-    padding-top:30px;
-    padding-bottom:25px;
-    margin:auto;
-  }
-
-  .footer-text {
-    margin: 0 auto;
-    width: 50%!important;
-    padding-top:2rem;
-  }
-
-
-@media (max-width: 450px) {
-
-.bio-body h3 {
-  font-size: 2rem!important;
-}
-
-  .bio-photo {
-    padding-top:5rem;
-    width:90%!important;
-  }
-
-  @media (max-width: 767px) {
-
-  .bio-body h3 {
-    font-size: 2rem!important;
-  }
-
-    .bio-photo {
-      padding-top:5rem;
-      width:90%!important;
-    }
-  }
