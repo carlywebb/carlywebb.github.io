@@ -750,7 +750,6 @@ text-align:left;
 font-size:1.8rem;
 line-height:.5 !important;
 padding-bottom:2rem;
-list-style-image: url("./images/oval-bullet.png")!important;
 list-style-position: inside;
 display: list-item;
 }
