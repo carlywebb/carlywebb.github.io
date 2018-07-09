@@ -34,7 +34,7 @@ h2 {
 h3 {
     font-size: 2rem;
     font-weight:300;
-    width:80%;
+    width:50%;
     margin:auto;
     border-bottom-style: solid;
     padding-bottom:20px;
@@ -363,7 +363,7 @@ padding-top:2rem
 
   .case-study-link {
     font-family: Raleway, sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .homecasestudy {
@@ -1166,7 +1166,6 @@ margin:5px;
   padding-top:30px;
   position: relative;
   background:#EAEDEF;
-  min-height:800px;
 }
 
 .user-stories h3 {
@@ -1180,7 +1179,7 @@ margin:5px;
 .user-stories a {
   font-weight:600;
   line-height:150px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
@@ -1188,7 +1187,7 @@ margin:5px;
   padding-top:5px;
   text-align:left;
   margin:auto;
-  font-size:20px;
+  font-size:1.6rem;
   width: 50%;
 }
 
@@ -1525,7 +1524,7 @@ padding-bottom: 50px;
   ----------------------------------------------------*/
 
   .more-testing {
-      padding-top:50px;
+      padding-top:10px;
     }
 
   .more-testing h3 {
