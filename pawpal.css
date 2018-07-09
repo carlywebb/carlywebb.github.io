@@ -1219,6 +1219,13 @@ margin:5px;
   margin-left: 3.4rem;
 }
 
+.flow-small {
+  padding-top:30px;
+  padding-bottom:50px;
+  margin-right: 3.4rem;
+  margin-left: 3.4rem;
+}
+
 .next-arrow {
   padding:5rem;
 }
@@ -1414,12 +1421,17 @@ margin:5px;
 }
 
 .next-arrow1 {
-  padding:0;
+  padding:10px;
   width:auto;
 }
 
 .flow {
   width:30%;
+  margin:auto;
+}
+
+.flow-small {
+  width: 20%;
   margin:auto;
 }
 
@@ -1432,6 +1444,9 @@ margin:5px;
     padding:1rem!important;
   }
   .flow {
+    width:90%!important;
+  }
+  .flow-small {
     width:90%!important;
   }
 }

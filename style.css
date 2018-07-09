@@ -1314,18 +1314,21 @@ margin:5px;
   margin:auto;
   padding-top:30px;
   padding-bottom: 5rem;
+  width: 20%;
 }
 
 .white-logo {
   margin:auto;
   padding-top:30px;
   padding-bottom: 5rem;
+  width: 20%;
 }
 
 .color-logo {
   margin:auto;
   padding-top:30px;
   padding-bottom: 5rem;
+  width: 20%;
 }
 
 /*media queries*/
@@ -1363,21 +1366,23 @@ margin:5px;
 
 .color-palette{
   margin:auto;
-  padding-top:5rem;
+  width:50%;
 }
 
 .typeface-1 {
   margin-right:5%;
   margin-left:5%;
-  padding-top:5rem;
-  padding-bottom:5rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  width: 20%
 }
 
 .typeface-2{
   margin-left:5%;
   margin-right:5%;
-  padding-top:5rem;
-  padding-bottom:5rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  width: 20%;
 }
 
 /*media queries*/
@@ -1434,12 +1439,12 @@ margin:5px;
 }
 
 .next-arrow1 {
-  padding:0;
+  padding:10px;
   width:auto;
 }
 
 .flow {
-  width:30%;
+  width:20%;
   margin:auto;
 }
 
