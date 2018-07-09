@@ -64,6 +64,14 @@ h6 {
   margin:auto!important;
 }
 
+h7 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  width:50%!important;
+  margin:auto!important;
+}
+
 p {
     font-size: 2rem;
     line-height: 1.5;
@@ -1494,6 +1502,14 @@ margin:5px;
   margin: auto;
   padding:8rem
 }
+
+.sub-text {
+padding-bottom: 50px;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+  }
 
 @media (max-width:807px) {
   .it-next-arrow {
