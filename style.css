@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight:300;
     width:80%;
     margin:auto;
@@ -42,7 +42,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight:300;
     width:80%;
     margin:auto;
@@ -50,14 +50,14 @@ h4 {
 
 h5 {
   font-weight:300;
-  font-size:2.5rem;
+  font-size:2rem;
   padding-top:5rem;
   margin: 0 auto;
   width:50%;
 }
 
 h6 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5;
   width:50%!important;
@@ -65,7 +65,7 @@ h6 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     font-weight:400;
     width:50%!important;
@@ -81,14 +81,14 @@ p {
 }
 
 a {
-  font-size:2rem;
+  font-size:1.6rem;
   line-height: 1.5;
   font-weight:300;
   color:#55595D;
 }
 
 ul li, ol li {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.5;
     font-weight:400;
     text-align: left;
@@ -578,7 +578,6 @@ padding-bottom:5rem;
 
 .profile__head__main h5{
   padding-top:2rem !important;
-  padding-bottom: 2rem !important;
   text-align:center !important;
   font-family:raleway, sans-serif !important;
   line-height: 1.5 !important;
@@ -586,7 +585,6 @@ padding-bottom:5rem;
 
 .profile__body__main h6 {
   padding-top:2rem !important;
-  padding-bottom:2rem!important;
   text-align:center !important;
   font-family:raleway, sans-serif !important;
   line-height: 1.5 !important;
@@ -767,7 +765,8 @@ padding-top:50px;
 
 .user-research li {
 text-align:left;
-font-size:1.8rem;
+font-size:1.6rem;
+font-weight:400;
 line-height:.5 !important;
 padding-bottom:2rem;
 list-style-image: url("./images/oval-bullet.png")!important;
@@ -1039,7 +1038,6 @@ padding-top: 3rem;
 font-size: 3rem;
 font-weight: 300;
 padding-right:1.5rem;
-margin-bottom: 2rem;
 line-height: 1;
 width: auto!important;
 }
