@@ -145,12 +145,11 @@ nav {
 }
 
 nav img {
-  width: 120%;
+  width: 60px;
 }
 
 li.left {
-  width: 21rem;
-  padding: 1.5rem 0 1rem 1rem;
+  padding: 1.5rem 0 1rem 3rem;
   display: block;
   float: right;
 }
@@ -161,10 +160,6 @@ li {
 
 ul {
   margin-bottom:0 !important;
-}
-
-.logo {
-  width: 100%;
 }
 
 .links {
@@ -189,7 +184,7 @@ Transition:all 0.25s linear;
 }
 
 .right a:hover {
-  background-color: #ACD6DA;
+  background-color: #24C5CB;
   color: #55595D;
 }
 
@@ -215,7 +210,7 @@ div.mobile {
 }
 
 .navprojectlinks a:hover {
-  color: #9013FE;
+  color: #ED7940;
 }
 
 @media (min-width: 767px) {
@@ -250,14 +245,14 @@ div.mobile {
     background-color: #FFF;
     color: #55595D;
     display: block;
-    font-size: 2rem;
-    padding: 6rem 1rem 3rem 1rem;
+    font-size: 1.7rem;
+    padding: 3rem 1rem 3rem 1rem;
     text-decoration: none;
   }
 
   .right a:hover {
-    background-color: #ACD6DA;
-    padding: 6rem 1rem 3rem 1rem;
+    background-color: #86E3E6;
+    padding: 3rem 1rem 3rem 1rem;
     color: #55595D;
   }
 
@@ -562,7 +557,7 @@ width:60%;
     padding-top:3rem;
   }
   .den-background {
-      background-color: #EAEDEF;
+      background-color: white;
   }
 
 .den-hero p {
