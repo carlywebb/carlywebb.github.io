@@ -350,13 +350,6 @@ padding-bottom:20rem;
     transform: translateY(-15px);
   }
 }
-}
-
-.featuredwork {
-  background: -webkit-linear-gradient(#7FE0E2, #22C3C9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 /*media queries*/
 
