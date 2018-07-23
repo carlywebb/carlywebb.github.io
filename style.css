@@ -28,6 +28,7 @@ h2 {
     font-size: 3.5rem;
     font-weight:400;
     margin:auto;
+    padding-bottom: 2rem;
 }
 
 h3 {
@@ -288,10 +289,9 @@ div.mobile {
 /* ------------------------------------------------
 -------------------------- Hero -----------
 ----------------------------------------------------*/
-.jumbotron {
+.homeintro {
     margin-bottom: 0px;
     color:#55595D;
-    min-height:60rem;
     background-color: #ffffff;
     background-image: url('images/bluewhitebackground.png');
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ div.mobile {
 font-family: raleway, sans-serif;
 font-size: 5rem;
 font-weight:400;
-padding-top:13.5rem;
+padding-top:15rem;
 margin: 0 auto;
 color: #55595D;
 }
@@ -329,8 +329,8 @@ width:100% !important;
 }
 
 .home-down{
-padding-top:12rem;
-padding-bottom:15rem;
+padding-top:10rem;
+padding-bottom:20rem;
 }
 
 .bounce {
@@ -363,7 +363,7 @@ padding-bottom:15rem;
 /*mobiles*/
 
 @media (min-width:300px) and (max-width: 575px) {
-.jumbotron{
+.homeintro{
 min-height:53rem;
 background-image: none;
 }
