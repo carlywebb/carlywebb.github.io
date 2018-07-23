@@ -421,7 +421,7 @@ padding-top:2rem
 }
 
 .footer a:hover {
- color: #ACD6DA;
+ color: #24C5CB;
  text-decoration: none;
 }
 
@@ -455,7 +455,8 @@ padding-top:2rem
   padding-bottom: 2rem;
   font-size: 1.7rem;
   text-align: center;
-  background-color: #ACD6DA;
+  color:white;
+  background-color: #24C5CB;
   width: 100%!important;
     }
 
