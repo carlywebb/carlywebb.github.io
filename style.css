@@ -329,6 +329,8 @@ width:100% !important;
 }
 
 .home-down{
+position: relative;
+z-index: 1;
 padding-top:10rem;
 padding-bottom:20rem;
 }
