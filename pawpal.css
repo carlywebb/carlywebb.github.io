@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-size: 5rem;
-    font-weight:200;
+    font-weight:400;
     margin:auto;
 }
 
@@ -210,7 +210,7 @@ div.mobile {
 }
 
 .navprojectlinks a:hover {
-  color: #ED7940;
+  color: #8A27D1;
 }
 
 @media (min-width: 767px) {
@@ -501,7 +501,6 @@ padding-top:2rem
 
 .pawpal-preview {
 padding-top:5rem;
-padding-bottom:5rem;
 width:60%;
 }
 
