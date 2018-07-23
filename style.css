@@ -291,7 +291,7 @@ div.mobile {
 .jumbotron {
     margin-bottom: 0px;
     color:#55595D;
-    min-height:55rem;
+    min-height:60rem;
     background-color: #ffffff;
     background-image: url('images/bluewhitebackground.png');
     background-repeat: no-repeat;
@@ -328,10 +328,32 @@ text-align: center;
 width:100% !important;
 }
 
+.home-down{
+padding-top:12rem;
+padding-bottom:15rem;
+}
 
-.down-arrow {
-padding-top:5rem;
-padding-bottom:8rem;
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+}
+
+.featured-work {
+
 }
 
 /*media queries*/
