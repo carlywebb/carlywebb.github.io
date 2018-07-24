@@ -293,7 +293,7 @@ div.mobile {
     margin-bottom: 0px;
     color:#55595D;
     background-color: #ffffff;
-    background-image: url('images/bluewhitebackground.png');
+    background-image: url('images/backgroundsvg.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
