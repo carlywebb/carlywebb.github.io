@@ -52,23 +52,25 @@
 <div class="contact-heading">
   <h1>Contact Me</h1>
 </div>
-
+<form id="contactform" action="//formspree.io/your@email.com" method="POST">
 <div>
 <div class="wrapper">
-  <form action="#" method="post">
+  <form id="contactform" action="https://formspree.io/carlywebb@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Website contact"/>
+    <input type="text" name="_gotcha" style="display:none" />
     <div class="field">
       <input type="text" id="name" name="name" placeholder="Who are you?" autofocus/>
       <label for="name">Name</label>
     </div>
     <div class="field">
-      <input type="text" id="email" name="email" placeholder="name@email.com" />
+      <input type="text" id="email" name="_replyto" placeholder="name@email.com" />
       <label for="email">E-Mail</label>
     </div>
     <div class="field">
-      <textarea id="msg" rows="4" name="msg" placeholder="You message goes here"></textarea>
+      <textarea id="msg" rows="4" name="message" placeholder="You message goes here"></textarea>
       <label for="msg">Message</label>
     </div>
-    <input class="button" type="submit" value="Send" href="mailto:carlywebb@gmail.com" />
+    <input class="button" type="submit" value="Send" href="submit.html"/>
   </form>
 </div>
 </div>
