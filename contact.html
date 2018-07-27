@@ -50,8 +50,11 @@
   <h1>Contact Me</h1>
 </div>
 <div>
+
 <div class="wrapper">
-  <form action="#" method="post">
+  <form id="contactform" action="https://formspree.io/carlywebb@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="Website contact"/>
+  <input type="text" name="_gotcha" style="display:none"/>
     <div class="field">
       <input type="text" id="name" name="name" placeholder="Who are you?" autofocus/>
       <label for="name">Name</label>
