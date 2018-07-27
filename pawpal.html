@@ -45,8 +45,10 @@
           </div>
 
         </nav>
+
         <!--centered project links-->
-        <section class="navprojectlinks">
+        <section id="navprojectlinks">
+        <div class="navprojectlinks nav2 navbar-expand-lg sticky-top" role="navigation">
         <ul class="nav justify-content-center">
           <li class="nav-item"><a class="nav-link" href="#overview">Overview</a>
           </li>
@@ -57,20 +59,12 @@
           <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a>
           </li>
         </ul>
-        </section>
+      </div>
+    </section>
 
         <!--Hero image-->
         <div class="den-background">
-        <!--
-        <div>
-        <img class="den-background-image" src="images/pawpal-banner.png" alt="PawPal Background">
-      </div>-->
-      <div>
         <img src="images/pp-mocks.png" class="pawpal-preview" alt="PawPal Preview">
-      </div>
-        <div>
-        <img class="den-mobile-logo" src="images/pawpal-mobile.png" alt="PawPal Mobile">
-        </div>
       </div>
 
         <!--Intro page-->
@@ -132,9 +126,9 @@
                 </div>
         <!--Overview-->
         <!--bookmark-->
-           <div class="overview">
+           <div class="overview" id="overview">
              <img src="images/overview-icon.png" alt="Book Icon" class="book-icon">
-             <h3 id="overview">Overview</h3>
+             <h3>Overview</h3>
               <p>PawPal is a Desktop site and mobile application that connects pet owners with professional, licensed pet trainers in minutes. Simply sign up for free, and pay for the opportunity to speak with someone who can solve your pet's behavioral or obedience issues. PawPal makes being a pet owner and understanding your pet easier and more affordable.</p>
             </div>
 
@@ -156,9 +150,9 @@
 
 
         <!--User Research--->
-           <section class="user-research">
+           <section class="user-research" id="discovery">
              <img src="images/research-icon.png" alt="Research Icon">
-             <h3 id="discovery">User Research</h3>
+             <h3>User Research</h3>
              <div>
               <p>I created a research survey specifically targeted to pet owners that evaluated how they viewed their pet’s behavioral health and obedience and their approaches to solving problems they encountered with their pets. I also gauged what their satisfaction was with the resources already available on the market to see if there was a need for a new product. I focused on the following:</p>
                 <ul>
@@ -359,10 +353,10 @@
                   </div>
 
 
-        <section class="flowmap">
+        <section class="flowmap" id="creation">
                <div class="flows-map">
                   <img src="images/sitemap-icon.png" alt="User Flows and Sitemap Icon">
-                 <h3 id="creation">User Flows &amp; Sitemap</h3>
+                 <h3>User Flows &amp; Sitemap</h3>
              <div>
                <p>I created user flows first on paper, and then later in draw.io to formalize the plan for how the site would flow. I also created a sitemap to know exactly which pages needed to be created for the MVP of PawPal.</p>
                <div>
@@ -486,9 +480,9 @@
 
         <!--Key Learnings-->
         <!--bookmark-->
-          <div class="key-learnings">
+          <div class="key-learnings" id="reflection">
             <img src="images/learnings-icon.png" alt="What I Learned Icon">
-            <h3 id="reflection">What I Learned</h3>
+            <h3>What I Learned</h3>
               <p>This was the first project that I was able to take a problem and solve it with an original idea for an application. It was exciting during the research phase to find out that there was not an application like this that had already been created and my research proved to me that there was a need and want for a product like this. I got to be extremely creative throughout the entire process, from the very beginnings of figuring out exactly how I wanted to app to function down to the fine details of color gradients and typeface. One of the most important things I learned during this process was the importance of certain UI elements that users are thrilled to find are similar among varied websites and applications. Some examples are the filter and sort bar on the expert search page. Users were immediately drawn to how familiar and easy to use it was. Same goes for the pet profile set-up process and filling out forms. </p>
                 <p>I learned the importance of uniformity among forms and the statistics of how much more likely a user is to complete filling out a form if it is familiar to them and easy to navigate. I will always remember this project as being one that I am most proud of, where I got to unleash so many of my own original ideas and creativity.</p>
                 <div>
@@ -551,10 +545,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
          <script src="paw-charts.js"></script>
           <script src="util.js"></script>
-          <script src="stickySubnav.js"></script>
 
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navprojectlinks");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 
           </body>
         </html>

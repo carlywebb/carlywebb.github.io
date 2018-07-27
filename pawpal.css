@@ -262,225 +262,29 @@ div.mobile {
 
 }
 
-
-/* ------------------------------------------------
--------------------------- Hero -----------
-----------------------------------------------------*/
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url('images/pink-sunset.png');
-    color:#55595D;
-    min-height:60rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .display-4 {
-font-family: raleway, sans-serif;
-font-size: 5rem;
-font-weight:400;
-padding-top:7rem;
-margin: 0 auto;
-color: #55595D;
-}
-
-.lead {
-font-family: raleway, sans-serif;
-font-size:3rem;
-margin: 0 auto;
-padding-top:3rem;
-text-align:center;
-width: 100% !important;
-}
-
-
-.follow {
-font-family: raleway, sans-serif;
-font-size:2.5rem;
-margin: 0 auto;
-padding-top:2rem;
-text-align: center;
-width:100% !important;
-}
-
-
-.down-arrow {
-padding-top:5rem;
-padding-bottom:8rem;
-}
-
-/*media queries*/
-
-/*mobiles*/
-
-@media (min-width:300px) and (max-width: 575px) {
-.jumbotron{
-min-height:53rem;
-}
-
-.display-4 {
-font-size:4rem;
-padding-top:5rem;
-}
-
-.lead {
-font-size:3rem;
-padding-top:2rem
-}
-  }
-
-  /* ------------------------------------------------
-  -------------------------- Case Study -----------
-  ------------------------------*/
-
-  .den-title{
-    font-family:nunito;
-  }
-
-  .den-shortdesc {
-    font-family: Lato, sans-serif;
-    font-size: 2rem;
-    font-weight:200;
-    margin:none;
-    text-align: right;
-    line-height: 1.5;
-  }
-
-  .horizontal-arrow {
-    padding-left:1rem;
-  }
-
-  .project-link {
-     font-size:2.5rem;
-  }
-
-  .full { width: 100%; }
-
-  .case-study-link {
-    font-family: Raleway, sans-serif;
-    font-size: 4rem;
-  }
-
-  .homecasestudy {
-    background: #ebedef;
-  }
-
-  .project-contain {
-    margin: 0 auto;
-    padding: 8rem 0;
-    width: 90%;
-  }
-
-  .left-case {
-    margin-bottom: 30px;
-  }
-
-  .paw-caseimage {
-  width:75%;
-  }
-
-  .pawhomecasestudy {
-    background-color: #E9F4F9;
-  }
-
-  .pawcasemockup {
-    width:100%;
-  }
-
-  @media all and (min-width: 768px) {
-    .project-contain {
-      width: 75%;
-      overflow: hidden;
-    }
-
-    .left-case {
-      width: 45%;
-      float: left;
-      text-align: right;
-    }
-    .right-case {
-      float: right;
-      width: 50%;
-    }
-  }
-
-  @media (min-width: 575px and max-width: 767px) {
-    .den-title{
-      padding-top: 3rem;
-    }
-  }
-
-/* ------------------------------------------------
--------------------------- Footer -----------
-----------------------------------------------------*/
-
-.footer a {
-  padding-top:50px;
-  text-decoration: none;
-  font-family: raleway, sans-serif;
-}
-
-.footer a:hover {
- color: #24C5CB;
- text-decoration: none;
-}
-
-.footer h4:hover {
- color: #55595D;
- text-decoration: none;
-}
-
-.footer{
-  background: white;
-  align-items: center;
-}
-
-.footer h4 {
-  padding-top: 5rem;
-  font-family: raleway, sans-serif;
-}
-
-.footer ul{
-        padding-bottom: 2rem;
-    }
-
-.footer ul > li {
-      padding-top:2rem;
-        display: inline-block;
-        margin: 0 50px;
-    }
-
-.footer p {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-size: 1.7rem;
-  text-align: center;
-  color:white;
-  background-color: #24C5CB;
-  width: 100%!important;
-    }
-
-@media (min-width:300px) and (max-width: 575px) {
-.footer ul{
-  display:inline-block;
-  padding-top:1rem;
-  font-size:1.8rem;
-}
-
-.footer ul > li {
-    padding-top: 2rem;
-    display: inline-block;
-    margin: 0 10px !important;
-  }
-}
-
 /* ------------------------------------------------
 -------------------------- Case Study Hero-----------
 ----------------------------------------------------*/
 
-.navprojectlinks a {
-  font-size: 2.3rem;
-  font-family: raleway, sans-serif;
+#navprojectlinks{
+  overflow:hidden;
+  background: white;
+}
+
+.navprojectlinks:hover{
+  color: #8A27D1;
+}
+
+.sticky{
+  align-items: center;
+  position: fixed;
+  top:0rem;
+  width: 100%;
+  z-index:1020;
+}
+
+.nav-link {
+  font-size: 1.8rem;
 }
 
 .den-background-image{
@@ -1557,4 +1361,68 @@ padding-bottom: 50px;
 
 .key-learnings ul {
   padding-top:20px;
+}
+
+/* ------------------------------------------------
+-------------------------- Footer -----------
+----------------------------------------------------*/
+
+.footer a {
+  padding-top:50px;
+  text-decoration: none;
+  font-family: raleway, sans-serif;
+}
+
+.footer a:hover {
+ color: #24C5CB;
+ text-decoration: none;
+}
+
+.footer h4:hover {
+ color: #55595D;
+ text-decoration: none;
+}
+
+.footer{
+  background: white;
+  align-items: center;
+}
+
+.footer h4 {
+  padding-top: 5rem;
+  font-family: raleway, sans-serif;
+}
+
+.footer ul{
+        padding-bottom: 2rem;
+    }
+
+.footer ul > li {
+      padding-top:2rem;
+        display: inline-block;
+        margin: 0 50px;
+    }
+
+.footer p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color:white;
+  background-color: #24C5CB;
+  width: 100%!important;
+    }
+
+@media (min-width:300px) and (max-width: 575px) {
+.footer ul{
+  display:inline-block;
+  padding-top:1rem;
+  font-size:1.8rem;
+}
+
+.footer ul > li {
+    padding-top: 2rem;
+    display: inline-block;
+    margin: 0 10px !important;
+  }
 }
