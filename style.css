@@ -145,6 +145,23 @@ ul li, ol li {
   text-decoration: none;
 }
 
+.homebutton4 {
+  color: #FFFFFF;
+  border:solid;
+  border-color: white;
+  border-width: 2px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/*
+.homebutton4:hover {
+  color:#A1061D;
+  background-color: white;
+  text-decoration: none;
+}*/
+
 .button2 {
   color: #FFFFFF;
   background: #ED7940;
@@ -459,10 +476,21 @@ width:75%;
   width: 100%;
 }
 
+.slacker-home-img {
+  width: 30%;
+}
+
 .datavizhomecasestudy {
   background: linear-gradient(to bottom right, #216869, #9dd2c8);
   color:white;
 }
+
+.slackerhomecasestudy {
+  background: linear-gradient(to bottom right, #A1061D, #EF4C5B);
+  color:white;
+}
+
+
 
 @media all and (min-width: 768px) {
   .project-contain {
